@@ -9,13 +9,14 @@
 		<title>Foundation 5</title>
 		 
 
-		<link rel="stylesheet" href="./stylesheets/custom.css">
-		<link rel="stylesheet" href="./stylesheets/animate.css">
-		<link rel="stylesheet" href="./stylesheets/animations.css">
-		<link rel="stylesheet" href="./fonts/font-awesome-4.5.0/css/font-awesome.css">
+		<link rel="stylesheet" href="stylesheets/custom.css">
+		<link rel="stylesheet" href="stylesheets/animate.css">
+		<link rel="stylesheet" href="stylesheets/animations.css">
+		<link rel="stylesheet" href="fonts/font-awesome-4.5.0/css/font-awesome.css">
 
-		 <link rel="stylesheet" href="./stylesheets/app.css" />
-		 <script src="./bower_components/modernizr/modernizr.js"></script>
+		 <link rel="stylesheet" href="stylesheets/app.css" />
+		 <script src="bower_components/modernizr/modernizr.js"></script>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.js"></script>
 
 	</head>
 	<body>
@@ -184,38 +185,44 @@
 			
 		</section>
 
-		
+		<section>
+			<h2 class="section-title"> My Work</h2>
 
-		<div class="row">
-			<hr>
-			<div class="large-12 columns">
-				<h4>Work</h4>
-				<p>Click on each image!</p>
-				<ul class="clearing-thumbs small-block-grid-1 medium-block-grid-2 large-block-grid-4" data-clearing>
-					<li>
-						<a href="http://placehold.it/800x500&text=[img]">
-						<img data-caption="caption here..." src="http://placehold.it/800x500&text=[img]"></a>
-					</li>
-					<li>
-						<a href="http://placehold.it/800x500&text=[img]"><img data-caption="caption 2 here..." src="http://placehold.it/800x500&text=[img]"></a>
-					</li>
-					<li>
-						<a href="http://placehold.it/800x500&text=[img]"><img data-caption="caption 3 here..." src="http://placehold.it/800x500&text=[img]"></a>
-					</li>
-					<li>
-						<a href="http://placehold.it/800x500&text=[img]"><img data-caption="caption 4 here..." src="http://placehold.it/800x500&text=[img]"></a>
-					</li>
-					<li>
-						<a href="http://placehold.it/800x500&text=[img]"><img data-caption="caption 5 here..." src="http://placehold.it/800x500&text=[img]"></a>
-					</li>
-					<li>
-						<a href="http://placehold.it/800x500&text=[img]"><img data-caption="caption 6 here..." src="http://placehold.it/800x500&text=[img]"></a>
-					</li>
-				</ul>
+			<div class="filter-group filters-link-group">
+			  <button class="button is-checked" data-filter="*">All</button>
+			  <button class="button" data-filter=".metal">Design</button>
+			  <button class="button" data-filter=".transition">Development</button>
+			  <button class="button" data-filter=".transition">Project/Account Management</button>
+			  <button class="button" data-filter=".transition">Analytics/SEO</button>
 			</div>
-		</div>
 
-
+			<div class="grid">
+			  <div class="element-item transition metal " data-category="transition">
+			    <h3 class="name">Mercury</h3>
+			    <p class="symbol">Hg</p>
+			    <p class="number">80</p>
+			    <p class="weight">200.59</p>
+			  </div>
+			  <div class="element-item metalloid " data-category="metalloid">
+			    <h3 class="name">Tellurium</h3>
+			    <p class="symbol">Te</p>
+			    <p class="number">52</p>
+			    <p class="weight">127.6</p>
+			  </div>
+			  <div class="element-item post-transition metal " data-category="post-transition">
+			    <h3 class="name">Bismuth</h3>
+			    <p class="symbol">Bi</p>
+			    <p class="number">83</p>
+			    <p class="weight">208.980</p>
+			  </div>
+			  <div class="element-item post-transition metal " data-category="post-transition">
+			    <h3 class="name">Lead</h3>
+			    <p class="symbol">Pb</p>
+			    <p class="number">82</p>
+			    <p class="weight">207.2</p>
+			  </div>
+			</div>
+		</section>
 	
 
 		<footer class="row">
@@ -237,13 +244,13 @@
 			</div>
 		</footer>
 
-		<script src="./bower_components/jquery/dist/jquery.min.js"></script>
-		<script src="./bower_components/modernizr/modernizr.js"></script>
-    	<script src="./bower_components/foundation/js/foundation.min.js"></script>
-    	<script src="./bower_components/foundation/js/foundation/foundation.orbit.js"></script>
-    	<script src="./js/app.js"></script>	
-    	<script src="./js/css3-animate-it.js"></script>
-    	<script src="./bower_components/foundation/js/foundation/foundation.topbar.js"></script>	
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="bower_components/modernizr/modernizr.js"></script>
+    	<script src="bower_components/foundation/js/foundation.min.js"></script>
+    	<script src="bower_components/foundation/js/foundation/foundation.orbit.js"></script>
+    	<script src="js/app.js"></script>	
+    	<script src="js/css3-animate-it.js"></script>
+    	<script src="bower_components/foundation/js/foundation/foundation.topbar.js"></script>	
 		
 		<script>
 		    $(document).foundation();
