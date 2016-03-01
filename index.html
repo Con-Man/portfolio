@@ -1,171 +1,253 @@
-<!doctype html>
+
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation</title>
-    <link rel="stylesheet" href="stylesheets/app.css" />
-    <script src="bower_components/modernizr/modernizr.js"></script>
-  </head>
-  <body>
-    <div class="row">
-      <div class="large-12 columns">
-        <h1>Welcome to Foundation</h1>
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="panel">
-          <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-          <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-          <p>Once you've exhausted the fun in this document, you should check out:</p>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://zurb.com/university/code-skills">Foundation Code Skills</a><br />These online courses offer you a chance to better understand how Foundation works and how you can master it to create awesome projects.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://foundation.zurb.com/forum">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowlege.</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-4 medium-4 medium-push-2 columns">
-              <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-            </div>
-            <div class="large-4 medium-4 medium-pull-2 columns">
-              <p><a href="https://twitter.com/ZURBfoundation">@zurbfoundation</a><br />Ping us on Twitter if you have questions. When you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-            </div>        
-          </div>
-        </div>
-      </div>
-    </div>
+	<head>
+		<meta charset="utf-8">
+		 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Foundation 5</title>
+		 
 
-    <div class="row">
-      <div class="large-8 medium-8 columns">
-        <h5>Here&rsquo;s your basic grid:</h5>
-        <!-- Grid Example -->
+		<link rel="stylesheet" href="./stylesheets/custom.css">
+		<link rel="stylesheet" href="./stylesheets/animate.css">
+		<link rel="stylesheet" href="./stylesheets/animations.css">
+		<link rel="stylesheet" href="./fonts/font-awesome-4.5.0/css/font-awesome.css">
 
-        <div class="row">
-          <div class="large-12 columns">
-            <div class="callout panel">
-              <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-        </div>
-        
-        <hr />
-                
-        <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-        <form>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-12.columns" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <div class="row collapse">
-                <label>Input Label</label>
-                <div class="small-9 columns">
-                  <input type="text" placeholder="small-9.columns" />
-                </div>
-                <div class="small-3 columns">
-                  <span class="postfix">.com</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Select Box</label>
-              <select>
-                <option value="husker">Husker</option>
-                <option value="starbuck">Starbuck</option>
-                <option value="hotdog">Hot Dog</option>
-                <option value="apollo">Apollo</option>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-6 medium-6 columns">
-              <label>Choose Your Favorite</label>
-              <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-              <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-            </div>
-            <div class="large-6 medium-6 columns">
-              <label>Check these out</label>
-              <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-              <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Textarea Label</label>
-              <textarea placeholder="small-12.columns"></textarea>
-            </div>
-          </div>
-        </form>
-      </div>     
+		 <link rel="stylesheet" href="./stylesheets/app.css" />
+		 <script src="./bower_components/modernizr/modernizr.js"></script>
 
-      <div class="large-4 medium-4 columns">
-        <h5>Try one of these buttons:</h5>
-        <p><a href="#" class="small button">Simple Button</a><br/>
-        <a href="#" class="small radius button">Radius Button</a><br/>
-        <a href="#" class="small round button">Round Button</a><br/>            
-        <a href="#" class="medium success button">Success Btn</a><br/>
-        <a href="#" class="medium alert button">Alert Btn</a><br/>
-        <a href="#" class="medium secondary button">Secondary Btn</a></p>           
-        <div class="panel">
-          <h5>So many components, girl!</h5>
-          <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-          <a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>          
-        </div>
-      </div>
-    </div>
+	</head>
+	<body>
 
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="js/app.js"></script>
-  </body>
+
+		<nav class="nav fixed contain-to-grid" role="navigation">
+
+			<div class="large-12 columns">
+
+				<div class="title-area small-6 large-6 columns">
+					<h1 class="name">
+						Connor Shocrylas
+					</h1>
+				</div>	 
+
+
+
+				<div class="icon-section small-6 large-6 columns">
+					<div class="nav icon-bar">
+						<a class="item" aria-labelledby="#itemlabel1">
+							<i class="fa fa-user fa-5"></i>
+							<label id='itemlabel1'>About</label>
+						</a>
+
+						<a class="item" aria-labelledby="#itemlabel2">
+							<i class="fa fa-cog"></i>
+							<label id='itemlabel2'>Services</label>
+						</a>
+
+						<a class="item" aria-labelledby="#itemlabel3">
+							<i class="fa fa-paint-brush"></i>
+							<label id='itemlabel3'>Portfolio</label>
+						</a>
+						<a class="item" aria-labelledby="#itemlabel4">
+							<i class="fa fa-paper-plane"></i>
+							<label id='itemlabel4'>Contact</label>
+						</a>
+					</div>
+				</div>
+
+			</div>
+			
+
+		</nav>
+
+
+
+
+	<section id="main" class="animatedParent animateOnce" data-sequence="700">
+		<div class="row fullwidth splash">
+				<ul class="example-orbit-content" data-orbit data-options="slide_number:false; infiniteWrap:true; timer:true; bullets:false; navigation_arrows:false; pause_on_hover:false; autoPlay:true; swipe:true; next_on_click: false; timer_speed: 6500;  timer_container_class: orbit-timer;"> 
+			<li data-orbit-slide="headline-i">
+				<div>
+					<div class="hero-text-container">
+						<h1 class="hero-text-main animated growIn slow" data-id="1">Conquering Digital Landscapes</h1>
+						<h2 class="hero-text-secondary animated growIn slow" data-id="1">One project at a time...</h2>
+						<button class="btn btn-5 btn-5a icon-arrow animated growIn slow" data-id="1"><span>Explore!</span></button>			
+					</div>
+					<img src="./img/mountains-splash.png"/>
+				</div> 
+			</li>
+			<li data-orbit-slide="headline-i">
+			<div>
+				<div class="hero-text-container">
+					<h1 class="hero-text-main">Navigating the Ditial Forest</h1>
+					<h2 class="hero-text-secondary">One project at a time...</h2>
+					<button class=" test btn btn-5 btn-5a icon-arrow animated growIn slow" data-id="3"><span>Explore!</span></button>	
+				</div>
+				<img src="./img/trees-splash.png"/>
+			</div> 
+		</li> 
+		</ul>
+		<div id="below-main"></div>
+		</div>
+		
+	</section>
+
+		<br><br>
+
+	<section>
+		<div class ="large-12">
+			<h2 class="section-title">Hi There!</h2>
+
+			<div class="row">
+
+				<div class="large-4 columns">
+					<img class="img-hex" src="./img/headshot.png" alt="headshot"/>
+				</div>
+
+				<div class="large-8 columns">
+					<p>
+						My name is Connor Shocrylas and I’m an innovtative, self-starter obsessed with everything digital. I have been climbing the digital peaks for over 5 years and have had the pleasure to work with over 40+ clients. If you are looking for a leader, designer,  or developer then you have come to the right place! 
+						</br></br>
+						Over the years I have worked with small NGO’s and large corporations who emloy a staff of 700+. If you ask any past client of mine they will always say that I know how to build relationships and capture their goals online.
+					 </p>
+				</div>
+
+			</div>
+			</br>
+
+			<div class="row animated">
+				<div class="large-8 columns">
+					<p>
+						I am the Swiss Army knife of the digital field and use my expansive skill set to drive success and inspire teams. My background is extensive and I worked positions in both the private and public sector. I also have 2 years of professional agnecy experience.
+						</br></br>
+						When working with clients, one of my many goals is to faciltate a creative/educational environment. I aim to teach and coach individuals on best practices 
+					 </p>
+				</div>
+
+				<div class="large-4 columns">
+					<img class="img-hex" src="./img/hex-swiss-army.png" alt="headshot"/>
+				</div>
+			</div>
+		</div>
+		</section>	
+
+		<br><br>
+		<section>
+			<h2 class="section-title">What I Can Do For You</h2>
+			<br>
+			<div class="row">
+
+				<div class="large-6 columns">
+					<h3 class="services-title">Technical & Digital</h3>
+					<ul class="services-list"> 
+						<li>Digital Design & Front-end Development</li>
+						<li>Back-end Development</li>
+
+						<li>CMS Integration</li>
+
+						<li>Web Strategy </li>
+
+						<li>SEO </li>
+
+						<li>Analytics</li>
+
+						<li>Wireframing & Information Architecture (IA)</li>
+
+						<li>Testing & QA</li>
+					</ul>
+				</div>
+
+				<div class="large-6 columns">
+					<h3 class="services-title">Non-Technical</h3>
+					<ul class="services-list"> 
+						<li>Project Management</li>
+
+						<li>Account Management</li>
+
+						<li>Digital Sales</li>
+
+						<li>Inbound Marketing</li>
+
+						<li>CRM Data Management</li>
+
+						<li>Email Marketing</li>
+
+						<li>RFP’s & SOW’s</li>
+
+						<li>Office Culture</li>
+						
+					</ul>
+				</div>
+
+			</div>
+			
+		</section>
+
+		
+
+		<div class="row">
+			<hr>
+			<div class="large-12 columns">
+				<h4>Work</h4>
+				<p>Click on each image!</p>
+				<ul class="clearing-thumbs small-block-grid-1 medium-block-grid-2 large-block-grid-4" data-clearing>
+					<li>
+						<a href="http://placehold.it/800x500&text=[img]">
+						<img data-caption="caption here..." src="http://placehold.it/800x500&text=[img]"></a>
+					</li>
+					<li>
+						<a href="http://placehold.it/800x500&text=[img]"><img data-caption="caption 2 here..." src="http://placehold.it/800x500&text=[img]"></a>
+					</li>
+					<li>
+						<a href="http://placehold.it/800x500&text=[img]"><img data-caption="caption 3 here..." src="http://placehold.it/800x500&text=[img]"></a>
+					</li>
+					<li>
+						<a href="http://placehold.it/800x500&text=[img]"><img data-caption="caption 4 here..." src="http://placehold.it/800x500&text=[img]"></a>
+					</li>
+					<li>
+						<a href="http://placehold.it/800x500&text=[img]"><img data-caption="caption 5 here..." src="http://placehold.it/800x500&text=[img]"></a>
+					</li>
+					<li>
+						<a href="http://placehold.it/800x500&text=[img]"><img data-caption="caption 6 here..." src="http://placehold.it/800x500&text=[img]"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+
+	
+
+		<footer class="row">
+			<div class="large-12 columns">
+				<hr/>
+				<div class="row">
+					<div class="large-6 columns">
+						<p>© Copyright no one at all. Go to town.</p>
+					</div>
+					<div class="large-6 columns">
+						<ul class="inline-list right">
+							<li><a href="#">Link 1</a></li>
+							<li><a href="#">Link 2</a></li>
+							<li><a href="#">Link 3</a></li>
+							<li><a href="#">Link 4</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="./bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="./bower_components/modernizr/modernizr.js"></script>
+    	<script src="./bower_components/foundation/js/foundation.min.js"></script>
+    	<script src="./bower_components/foundation/js/foundation/foundation.orbit.js"></script>
+    	<script src="./js/app.js"></script>	
+    	<script src="./js/css3-animate-it.js"></script>
+    	<script src="./bower_components/foundation/js/foundation/foundation.topbar.js"></script>	
+		
+		<script>
+		    $(document).foundation();
+	    </script>
+		
+	</body>
 </html>
