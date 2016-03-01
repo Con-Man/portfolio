@@ -21,7 +21,7 @@
 	}
 
 
-	h1, h2, h3, h4 { 
+	h1, h2, h4 { 
 		font-family: 'Slabo 13px', serif;
 		margin-bottom: 0;
 		text-rendering: optimizeLegibility;
@@ -335,7 +335,7 @@ button.btn.btn-5.btn-5a.icon-arrow.animated.growIn.slow.go{
     	outline: none;
     	}
 
-	.grid-test {
+.grid-test {
 	padding: 20px 20px 100px 20px;
 	max-width: 1300px;
 	margin: 0 auto;
@@ -359,6 +359,7 @@ button.btn.btn-5.btn-5a.icon-arrow.animated.growIn.slow.go{
 
 .grid-test figure img {
 	max-width: 100%;
+	min-height: 219px;
 	display: block;
 	position: relative;
 }
@@ -438,7 +439,7 @@ hr.horizontal {
 .caption-title { 
 	text-align: center;
 	color: $white;
-	font-size: 1.8rem;
+	font-size: 1.4rem;
 	font-family: 'Slabo 13px', serif;
 }
 
@@ -447,7 +448,7 @@ hr.horizontal {
 	color: $white;
 	font-family: 'Comfortaa', sans-serif;
 	font-weight: 300;
-	font-size: 1.4rem;
+	font-size: 1rem;
 }
 
 
@@ -525,9 +526,6 @@ hr.horizontal {
 }
 
 
-
-
-
 @media screen and (max-width: 31.5em) {
 	.grid-test {
 		padding: 10px 10px 100px 10px;
@@ -536,4 +534,40 @@ hr.horizontal {
 		width: 100%;
 		min-width: 300px;
 	}
+}
+
+
+// Footer 
+footer { 
+	background: $darkest-blue;
+}
+
+h2.section-title.footer { 
+	color: $white;
+}
+
+.footer-text{ 
+	text-align: center;
+	color: $white;
+	font-family: 'Comfortaa', sans-serif;
+}
+
+.bottom-row { 
+	padding: 1em;
+}
+
+.site-copy { 
+	color: $white;
+	margin-bottom: 0;
+}
+
+.lower-icon {
+  	position: absolute;
+    z-index: 2;
+    right: 0;
+    bottom: 1.5rem;
+}
+img.hops-icon {
+    width: 50px;
+    height: 50px;
 }
