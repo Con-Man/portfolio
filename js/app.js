@@ -63,7 +63,7 @@ docReady( function() {
   };
 
   // bind filter button click
-  var filtersElem = document.querySelector('.filters-link-group');
+  var filtersElem = document.querySelector('.filter-group');
   eventie.bind( filtersElem, 'click', function( event ) {
     // only work with buttons
     if ( !matchesSelector( event.target, 'button' ) ) {
@@ -75,22 +75,12 @@ docReady( function() {
     iso.arrange({ filter: filterValue });
   });
 
-  // change is-checked class on buttons
-  var buttonGroups = document.querySelectorAll('.filter-group');
-  for ( var i=0, len = buttonGroups.length; i < len; i++ ) {
-    var buttonGroup = buttonGroups[i];
-    radioButtonGroup( buttonGroup );
-  }
-
 });
 
-function radioButtonGroup( buttonGroup ) {
-  eventie.bind( buttonGroup, 'click', function( event ) {
-    // only work with buttons
-    if ( !matchesSelector( event.target, 'button' ) ) {
-      return;
-    }
-    classie.remove( buttonGroup.querySelector('.is-checked'), 'is-checked' );
-    classie.add( event.target, 'is-checked' );
-  });
-}
+
+$('.filter-group button').on('click', function(){
+    $(this).siblings().removeClass('active')
+    $(this).addClass('active');
+})
+
+$("a[href^='http://']").attr("target","_blank");
