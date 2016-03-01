@@ -48,6 +48,20 @@ docReady( function() {
     layoutMode: 'fitRows'
   });
 
+  // filter functions
+  var filterFns = {
+    // show if number is greater than 50
+    numberGreaterThan50: function( itemElem ) {
+      var number = getText( itemElem.querySelector('.number') );
+      return parseInt( number, 10 ) > 50;
+    },
+    // show if name ends with -ium
+    ium: function( itemElem ) {
+      var name = getText( itemElem.querySelector('.name') );
+      return name.match( /ium$/ );
+    }
+  };
+
   // bind filter button click
   var filtersElem = document.querySelector('.filters-link-group');
   eventie.bind( filtersElem, 'click', function( event ) {
@@ -62,7 +76,7 @@ docReady( function() {
   });
 
   // change is-checked class on buttons
-  var buttonGroups = document.querySelectorAll('.filters-group');
+  var buttonGroups = document.querySelectorAll('.filter-group');
   for ( var i=0, len = buttonGroups.length; i < len; i++ ) {
     var buttonGroup = buttonGroups[i];
     radioButtonGroup( buttonGroup );
@@ -80,4 +94,3 @@ function radioButtonGroup( buttonGroup ) {
     classie.add( event.target, 'is-checked' );
   });
 }
-
