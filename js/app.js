@@ -86,18 +86,8 @@ $('.filter-group button').on('click', function(){
 $("a[href^='http://']").attr("target","_blank");
 
 
-docReady( function() {
-  function get_action(form) {
-      var v = grecaptcha.getResponse();
-      if(v.length == 0)
-      {
-          document.getElementById('captcha').innerHTML="You can't leave Captcha Code empty";
-          return false;
-      }
-      if(v.length != 0)
-      {
-          document.getElementById('captcha').innerHTML="Captcha completed";
-          return true; 
-      }
-  }
-});
+       docReady( (function () {
+                var e = document.getElementById("fooDiv");
+                e.parentNode.removeChild(e);
+            })
+       );
