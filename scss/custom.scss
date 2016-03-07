@@ -557,15 +557,15 @@ input[type="text"], input[type="email"]  {
 		background: $primary-color !important;
 		border-top: none !important;
 		border-right: none !important;
-		border-bottom: none !important;
-		border-left: 2px solid transparent !important;
+		border-bottom: 2px solid transparent !important;
+		border-left: none !important;
 		-webkit-transition: all 0.3s !important;
 		-moz-transition: all 0.3s !important;
 		transition: all 0.3s !important;
 
 		&:focus { 
 			background: $secondary-color !important;
-			border-left: 2px solid $primary-color !important;
+			border-bottom: 2px solid $primary-color !important;
 			color: $white !important;
 		}
 

@@ -10272,8 +10272,8 @@ input[type="text"], input[type="email"] {
   background: #6699CC !important;
   border-top: none !important;
   border-right: none !important;
-  border-bottom: none !important;
-  border-left: 2px solid transparent !important;
+  border-bottom: 2px solid transparent !important;
+  border-left: none !important;
   -webkit-transition: all 0.3s !important;
   -moz-transition: all 0.3s !important;
   transition: all 0.3s !important;
@@ -10281,7 +10281,7 @@ input[type="text"], input[type="email"] {
 /* line 566, ../scss/custom.scss */
 input[type="text"]:focus, input[type="email"]:focus {
   background: #1C3664 !important;
-  border-left: 2px solid #6699CC !important;
+  border-bottom: 2px solid #6699CC !important;
   color: #fff !important;
 }
 /* line 572, ../scss/custom.scss */

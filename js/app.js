@@ -85,3 +85,37 @@ $('.filter-group button').on('click', function(){
 
 $("a[href^='http://']").attr("target","_blank");
 
+
+
+var validator = $("#add-conference").validate({
+   ignore: ".ignore",
+   rules: {
+       city: {
+           required: function() {
+               if ($("#city-name").val()) {
+                   return false;
+               } else {
+                   return true;
+               }
+           }
+       },
+       country: {
+           required: function() {
+               if ($("#country-name").val()) {
+                   return false;
+               } else {
+                   return true;
+               }
+           }
+       },
+       "hiddenRecaptcha": {
+           required: function() {
+               if(grecaptcha.getResponse() == '') {
+                   return true;
+               } else {
+                   return false;
+               }
+           }
+       }
+   }
+});
