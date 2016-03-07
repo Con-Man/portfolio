@@ -87,35 +87,16 @@ $("a[href^='http://']").attr("target","_blank");
 
 
 
-var validator = $("#add-conference").validate({
-   ignore: ".ignore",
-   rules: {
-       city: {
-           required: function() {
-               if ($("#city-name").val()) {
-                   return false;
-               } else {
-                   return true;
-               }
-           }
-       },
-       country: {
-           required: function() {
-               if ($("#country-name").val()) {
-                   return false;
-               } else {
-                   return true;
-               }
-           }
-       },
-       "hiddenRecaptcha": {
-           required: function() {
-               if(grecaptcha.getResponse() == '') {
-                   return true;
-               } else {
-                   return false;
-               }
-           }
-       }
-   }
-});
+function get_action(form) {
+    var v = grecaptcha.getResponse();
+    if(v.length == 0)
+    {
+        document.getElementById('captcha').innerHTML="You can't leave Captcha Code empty";
+        return false;
+    }
+    if(v.length != 0)
+    {
+        document.getElementById('captcha').innerHTML="Captcha completed";
+        return true; 
+    }
+}

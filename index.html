@@ -338,8 +338,9 @@
 								<textarea placeholder="Message"></textarea>
 							</div>
 						</div>
-						<input type="hidden" class="hiddenRecaptcha required" name="hiddenRecaptcha" id="hiddenRecaptcha">
-						<div class="g-recaptcha" data-sitekey="6LdjJhoTAAAAAKitnLGfRvgB1oZAjB9ZLnyRIWwi"></div>
+						
+						<div class="g-recaptcha" id="rcaptcha" style="margin-left: 90px;" data-sitekey="6LdjJhoTAAAAAKitnLGfRvgB1oZAjB9ZLnyRIWwi"></div>
+						<span id="captcha" style="margin-left:100px;color:red" />
 
 						<div class="row"> 
 							<button class="small button" name="Send" type="submit" value="Send">Send er' Off</button>
@@ -360,10 +361,10 @@
 		<script src="bower_components/jquery/dist/jquery.min.js"></script>
 		<script src="bower_components/modernizr/modernizr.js"></script>
     	<script src="bower_components/foundation/js/foundation.min.js"></script>
-    	<script src="bower_components/foundation/js/foundation/foundation.orbit.js"></script>
+    	<!-- <script src="bower_components/foundation/js/foundation/foundation.orbit.js"></script> -->
     	<script src="js/app.js"></script>	
     	<script src="js/css3-animate-it.js"></script>
-    	<script src="bower_components/foundation/js/foundation/foundation.topbar.js"></script>	
+    	<!-- <script src="bower_components/foundation/js/foundation/foundation.topbar.js"></script>	 -->
 		
 		<script>
 		    $(document).foundation();
