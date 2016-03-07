@@ -18,6 +18,7 @@
 		 <link rel="stylesheet" href="stylesheets/app.css" />
 		 <script src="bower_components/modernizr/modernizr.js"></script>
 		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.js"></script>
+		 <script src='https://www.google.com/recaptcha/api.js'></script>
 
 	</head>
 	<body>
@@ -323,11 +324,11 @@
 
 						<div class="row">
 							<div class="large-12 columns">
-								<select>
-									<option value="" disabled selected>Reason for Contact</option>
-									<option value="quote">Project Quote</option>
-									<option value="job">Employment</option>
-									<option value="hotdog">Site Issue</option>
+								<select class="contact-form-select">
+									<option class="select-disabled" value="" disabled selected>Reason for Contact</option>
+									<option class="select-option" value="quote">Project Quote</option>
+									<option class="select-option" value="job">Employment</option>
+									<option class="select-option" value="hotdog">Site Issue</option>
 								</select>
 							</div>
 						</div>
@@ -337,6 +338,8 @@
 								<textarea placeholder="Message"></textarea>
 							</div>
 						</div>
+
+						<div class="g-recaptcha" data-sitekey="6LdjJhoTAAAAAKitnLGfRvgB1oZAjB9ZLnyRIWwi"></div>
 
 						<div class="row"> 
 							<button class="small button" name="Send" type="submit" value="Send">Send er' Off</button>
