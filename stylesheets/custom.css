@@ -10220,24 +10220,31 @@ h2.section-title.footer {
 }
 
 /* line 513, ../scss/custom.scss */
+.form-container {
+  margin: 0 auto;
+  max-width: 500px;
+  text-align: center;
+}
+
+/* line 519, ../scss/custom.scss */
 .footer-text {
   text-align: center;
   color: #fff;
   font-family: 'Comfortaa', sans-serif;
 }
 
-/* line 519, ../scss/custom.scss */
+/* line 525, ../scss/custom.scss */
 .bottom-row {
   padding: 1em;
 }
 
-/* line 523, ../scss/custom.scss */
+/* line 529, ../scss/custom.scss */
 .site-copy {
   color: #fff;
   margin-bottom: 0;
 }
 
-/* line 528, ../scss/custom.scss */
+/* line 534, ../scss/custom.scss */
 .lower-icon {
   position: absolute;
   z-index: 2;
@@ -10245,7 +10252,7 @@ h2.section-title.footer {
   bottom: 1.5rem;
 }
 
-/* line 534, ../scss/custom.scss */
+/* line 540, ../scss/custom.scss */
 img.hops-icon {
   width: 50px;
   height: 50px;
