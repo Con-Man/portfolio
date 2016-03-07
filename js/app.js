@@ -85,9 +85,3 @@ $('.filter-group button').on('click', function(){
 
 $("a[href^='http://']").attr("target","_blank");
 
-
-       docReady( (function () {
-                var e = document.getElementById("fooDiv");
-                e.parentNode.removeChild(e);
-            })
-       );

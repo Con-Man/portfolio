@@ -290,8 +290,8 @@
 			<div class="form-container">
 				<form action="//formspree.io/Cshocrylas@gmail.com" method="POST" data-abide>
 					<div class="row">
-						<input type="hidden" name="_next" value="" />
-
+						<input type="hidden" name="_next" value="http://google.com" />
+						<input type="hidden" name="_subject" value="New submission!" />
 					    <div class="row">
 
 						    <div class="large-6 columns">
@@ -342,10 +342,7 @@
 								<small class="error">Please type your message here.</small>
 							</div>
 						</div>
-						<div id="fooDiv">
-							<label for="foo">Leave this field blank</label>
-							<input type="text" name="foo" id="foo">
-						</div>
+						<input type="text" name="_gotcha" style="display:none" />
 					
 						<div class="row"> 
 							<button class="small button" name="Send" type="submit" value="Send">Send er' Off</button>

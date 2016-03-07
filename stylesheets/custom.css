@@ -10288,3 +10288,8 @@ input[type="text"]:focus, input[type="email"]:focus {
 input[type="text"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder {
   color: #fff;
 }
+
+/* line 578, ../scss/custom.scss */
+small.error {
+  background: #CF2127 !important;
+}
