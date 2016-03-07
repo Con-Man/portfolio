@@ -10257,3 +10257,27 @@ img.hops-icon {
   width: 50px;
   height: 50px;
 }
+
+/* line 548, ../scss/custom.scss */
+span.form-icon {
+  border: none !important;
+  background: #1C3664 !important;
+  color: #fff !important;
+}
+
+/* line 554, ../scss/custom.scss */
+input[type="text"], input[type="email"] {
+  border-top: none !important;
+  border-right: none !important;
+  border-bottom: none !important;
+  border-left: 2px solid transparent !important;
+  -webkit-transition: all 0.3s !important;
+  -moz-transition: all 0.3s !important;
+  transition: all 0.3s !important;
+}
+/* line 563, ../scss/custom.scss */
+input[type="text"]:focus, input[type="email"]:focus {
+  background: #1C3664 !important;
+  border-left: 2px solid #6699CC !important;
+  color: #fff !important;
+}
