@@ -53,6 +53,34 @@
 
 	// Top Nav
 
+	.nav.fixed.contain-to-grid {
+	    background-color: transparent !important;
+	    transition: all 0.25s ease;
+	}
+
+	.nav.fixed.contain-to-grid.past-main {
+	    background-color: $primary-color !important;
+	    opacity: 0.9;
+	}
+
+	.nav.icon-bar {
+	    background-color: transparent !important;
+	    transition: all 0.25s ease;
+	}
+
+	.nav.icon-bar.past-main {
+	    background-color: $primary-color !important;
+
+	}
+
+	.icon-bar > * i { 
+		font-size: 1.5rem !important;
+	}
+
+	.icon-bar > * { 
+		padding: 0.5rem !important;
+	} 
+
 	.name { 
 		line-height: 2.3em;
 		font-family: 'Ubuntu', sans-serif;
@@ -256,50 +284,11 @@ button.btn.btn-5.btn-5a.icon-arrow.animated.growIn.slow.go{
     }
 
 
-//  Navigation 
-	.nav.fixed.contain-to-grid {
-	    background-color: transparent !important;
-	    transition: all 0.25s ease;
-	}
 
-	.nav.fixed.contain-to-grid.past-main {
-	    background-color: $primary-color !important;
-	}
-
-	.nav.icon-bar {
-	    background-color: transparent !important;
-	    transition: all 0.25s ease;
-	}
-
-	.nav.icon-bar.past-main {
-	    background-color: $primary-color !important;
-	}
-
-	.icon-bar > * i { 
-		font-size: 1.5rem !important;
-	}
-
-	.icon-bar > * { 
-		padding: 0.5rem !important;
-	} 
-
-
-// Accordions
-
-// .accordion-navigation {
-//   >a:after {
-//     content: "\2192";
-//     padding-left: 5px;
-//     float: right;
-//     font-size: 20px;
-//   }
-// 	  &.active > a:after {
-// 	    content: "\2193";
-// 	  }
-// }
 
 
 //  Grid/Portfolio
+
 	.filter-group{ 
 		text-align: center;
 	}
@@ -383,15 +372,6 @@ button.btn.btn-5.btn-5a.icon-arrow.animated.growIn.slow.go{
 // 	content: 'by ';
 // }
 
-.grid-test figcaption a {
-	text-align: center;
-	padding: 5px;
-	border-radius: 5px;
-	display: inline-block;
-	background: transparent;
-	color: #fff;
-}
-
 .cs-style-3 figure {
 	overflow: hidden;
 }
@@ -403,6 +383,9 @@ button.btn.btn-5.btn-5a.icon-arrow.animated.growIn.slow.go{
 .no-touch .cs-style-3 figure:hover img,
 .cs-style-3 figure.cs-hover img {
 	// transform: translateY(-50px);
+	-moz-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
 }
 
 .cs-style-3 figcaption {
@@ -433,7 +416,7 @@ hr.horizontal {
 .cs-style-3 figcaption a {
 	position: absolute;
 	bottom: 20px;
-	right: 42%;
+	right: 45%;
 }
 
 .caption-title { 
@@ -503,29 +486,6 @@ hr.horizontal {
 }
 
 
-/* Button 5a */
-.btn-caption-visit-1:hover span {
-	-webkit-transform: translateY(300%);
-	-moz-transform: translateY(300%);
-	-ms-transform: translateY(300%);
-	transform: translateY(300%);
-}
-
-.btn-caption-visit-1:before {
-	left: 0;
-	top: -100%;
-}
-
-.btn-caption-visit-1:hover:before {
-	top: 0;
-}
-
-.icon-rocket:before {
-	font-family: "FontAwesome";
-	content: "\f135";
-}
-
-
 @media screen and (max-width: 31.5em) {
 	.grid-test {
 		padding: 10px 10px 100px 10px;
@@ -536,6 +496,10 @@ hr.horizontal {
 	}
 }
 
+
+#Container .mix{
+	display: none;
+}
 
 // Footer 
 footer { 
