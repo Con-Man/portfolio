@@ -10204,35 +10204,40 @@ hr.horizontal {
     min-width: 300px;
   }
 }
-/* line 501, ../scss/custom.scss */
+/* line 500, ../scss/custom.scss */
+#Container .mix {
+  display: none;
+}
+
+/* line 505, ../scss/custom.scss */
 footer {
   background: #0F1041;
 }
 
-/* line 505, ../scss/custom.scss */
+/* line 509, ../scss/custom.scss */
 h2.section-title.footer {
   color: #fff;
 }
 
-/* line 509, ../scss/custom.scss */
+/* line 513, ../scss/custom.scss */
 .footer-text {
   text-align: center;
   color: #fff;
   font-family: 'Comfortaa', sans-serif;
 }
 
-/* line 515, ../scss/custom.scss */
+/* line 519, ../scss/custom.scss */
 .bottom-row {
   padding: 1em;
 }
 
-/* line 519, ../scss/custom.scss */
+/* line 523, ../scss/custom.scss */
 .site-copy {
   color: #fff;
   margin-bottom: 0;
 }
 
-/* line 524, ../scss/custom.scss */
+/* line 528, ../scss/custom.scss */
 .lower-icon {
   position: absolute;
   z-index: 2;
@@ -10240,7 +10245,7 @@ h2.section-title.footer {
   bottom: 1.5rem;
 }
 
-/* line 530, ../scss/custom.scss */
+/* line 534, ../scss/custom.scss */
 img.hops-icon {
   width: 50px;
   height: 50px;
