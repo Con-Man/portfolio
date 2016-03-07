@@ -85,11 +85,3 @@ $('.filter-group button').on('click', function(){
 
 $("a[href^='http://']").attr("target","_blank");
 
-
-$(function(){
-
-  // Instantiate MixItUp:
-
-  $('#Container').mixItUp();
-
-});
