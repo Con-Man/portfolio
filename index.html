@@ -16,43 +16,45 @@
 		<link rel="stylesheet" href="stylesheets/icon-buttons.css">
 
 		 <link rel="stylesheet" href="stylesheets/app.css" />
-		 <script src="bower_components/modernizr/modernizr.js"></script>
 		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.js"></script>
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 		 
 
 	</head>
 	<body>
 
-
+	<div id="home"></div>
 		<nav class="nav fixed contain-to-grid" role="navigation">
 
 			<div class="large-12 columns">
 
 				<div class="title-area small-6 large-6 columns">
-					<h1 class="name">
-						Connor Shocrylas
-					</h1>
+					<a href="#home">
+						<h1 class="name">
+							Connor Shocrylas
+						</h1>
+					</a>
 				</div>	 
 
 
 
 				<div class="icon-section small-6 large-6 columns">
 					<div class="nav icon-bar">
-						<a class="item" aria-labelledby="#itemlabel1">
+						<a href="#about" class="item" aria-labelledby="#itemlabel1">
 							<i class="fa fa-user fa-5"></i>
 							<label id='itemlabel1'>About</label>
 						</a>
 
-						<a class="item" aria-labelledby="#itemlabel2">
+						<a  href="#services" class="item" aria-labelledby="#itemlabel2">
 							<i class="fa fa-cog"></i>
 							<label id='itemlabel2'>Services</label>
 						</a>
 
-						<a class="item" aria-labelledby="#itemlabel3">
+						<a href="#work" class="item" aria-labelledby="#itemlabel3">
 							<i class="fa fa-paint-brush"></i>
 							<label id='itemlabel3'>Portfolio</label>
 						</a>
-						<a class="item" aria-labelledby="#itemlabel4">
+						<a  href="#contact" class="item" aria-labelledby="#itemlabel4">
 							<i class="fa fa-paper-plane"></i>
 							<label id='itemlabel4'>Contact</label>
 						</a>
@@ -92,11 +94,10 @@
 		</li> 
 		</ul>
 		</div>
-		
+		<div id="below-main"><p id="about"></p></div>
 	</section>
-<div id="below-main"></div>
-		<br><br>
 
+<br><br><br>
 	<section>
 		<div class ="large-12">
 			<h2 class="section-title">Hi There!</h2>
@@ -133,8 +134,8 @@
 			</div>
 		</div>
 		</section>	
-
-		<br><br>
+		<div id="services"></div>
+		<br><br><br>
 		<section>
 			<h2 class="section-title">Some of My Skillz</h2>
 			<br>
@@ -186,6 +187,8 @@
 			
 		</section>
 
+		<div id="work"></div>
+		<br><br><br>
 		<section>
 			<h2 class="section-title"> My Work</h2>
 
@@ -270,13 +273,11 @@
 			
 		</section>
 
-
-	
+		<br><br><br>
 
 		<footer class="large-12 columns">
 		<br>
-		<section>
-			<h2 class="section-title footer">
+			<h2 id="contact" class="section-title footer">
 				Let's Chat
 			</h2>
 
@@ -357,10 +358,9 @@
 					<img class="hops-icon" src="img/hops-icon.svg" alt="Hops Icon!! Yay">
 				</div>
 			</div>
-		</section>
 		</footer>
 
-		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<!-- <script src="bower_components/jquery/dist/jquery.min.js"></script> -->
 		<script src="bower_components/modernizr/modernizr.js"></script>
     	<script src="bower_components/foundation/js/foundation.min.js"></script>
     	<!-- <script src="bower_components/foundation/js/foundation/foundation.orbit.js"></script> -->
