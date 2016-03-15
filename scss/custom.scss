@@ -70,7 +70,6 @@
 
 	.nav.icon-bar.past-main {
 	    background-color: $primary-color !important;
-
 	}
 
 	.icon-bar > * i { 
@@ -574,6 +573,16 @@ input[type="text"], input[type="email"]  {
 		}
 
 }
+
+
+select.contact-form-select { 
+	background: $primary-color;
+	color: $white;
+	border: none !important;
+	font-weight: 600;
+}
+
+
 
 small.error {
 	background: #CF2127 !important;

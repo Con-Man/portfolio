@@ -9801,17 +9801,17 @@ h3 {
   background-color: #6699CC !important;
 }
 
-/* line 76, ../scss/custom.scss */
+/* line 75, ../scss/custom.scss */
 .icon-bar > * i {
   font-size: 1.5rem !important;
 }
 
-/* line 80, ../scss/custom.scss */
+/* line 79, ../scss/custom.scss */
 .icon-bar > * {
   padding: 0.5rem !important;
 }
 
-/* line 84, ../scss/custom.scss */
+/* line 83, ../scss/custom.scss */
 .name {
   line-height: 2.3em;
   font-family: 'Ubuntu', sans-serif;
@@ -9820,12 +9820,12 @@ h3 {
   font-weight: 300;
 }
 
-/* line 93, ../scss/custom.scss */
+/* line 92, ../scss/custom.scss */
 .icon-section {
   line-height: 0;
 }
 
-/* line 99, ../scss/custom.scss */
+/* line 98, ../scss/custom.scss */
 button.btn.btn-5.btn-5a.icon-arrow.animated.growIn.slow.go {
   display: block;
   top: 30%;
@@ -9833,7 +9833,7 @@ button.btn.btn-5.btn-5a.icon-arrow.animated.growIn.slow.go {
   text-align: center;
 }
 
-/* line 107, ../scss/custom.scss */
+/* line 106, ../scss/custom.scss */
 .btn-5 {
   background: transparent;
   border: 2px solid #fff;
@@ -9849,12 +9849,12 @@ button.btn.btn-5.btn-5a.icon-arrow.animated.growIn.slow.go {
   -moz-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-/* line 122, ../scss/custom.scss */
+/* line 121, ../scss/custom.scss */
 .btn-5:active {
   background: #9053a9;
   top: 2px;
 }
-/* line 127, ../scss/custom.scss */
+/* line 126, ../scss/custom.scss */
 .btn-5 span {
   display: inline-block;
   width: 100%;
@@ -9866,12 +9866,12 @@ button.btn.btn-5.btn-5a.icon-arrow.animated.growIn.slow.go {
   transition: all 0.3s;
   backface-visibility: hidden;
 }
-/* line 139, ../scss/custom.scss */
+/* line 138, ../scss/custom.scss */
 .btn-5:hover {
   background: #fff;
   color: #6699CC;
 }
-/* line 144, ../scss/custom.scss */
+/* line 143, ../scss/custom.scss */
 .btn-5:before {
   position: absolute;
   height: 100%;
@@ -9882,13 +9882,13 @@ button.btn.btn-5.btn-5a.icon-arrow.animated.growIn.slow.go {
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
-/* line 155, ../scss/custom.scss */
+/* line 154, ../scss/custom.scss */
 .btn-5:active:before {
   color: #703b87;
 }
 
 /* Button 5a */
-/* line 163, ../scss/custom.scss */
+/* line 162, ../scss/custom.scss */
 .btn-5a:hover span {
   -webkit-transform: translateY(300%);
   -moz-transform: translateY(300%);
@@ -9896,30 +9896,30 @@ button.btn.btn-5.btn-5a.icon-arrow.animated.growIn.slow.go {
   transform: translateY(300%);
 }
 
-/* line 170, ../scss/custom.scss */
+/* line 169, ../scss/custom.scss */
 .btn-5a:before {
   left: 0;
   top: -100%;
 }
 
-/* line 175, ../scss/custom.scss */
+/* line 174, ../scss/custom.scss */
 .btn-5a:hover:before {
   top: 0;
 }
 
-/* line 179, ../scss/custom.scss */
+/* line 178, ../scss/custom.scss */
 .icon-arrow:before {
   font-family: "FontAwesome";
   content: "\f063";
 }
 
-/* line 214, ../scss/custom.scss */
+/* line 213, ../scss/custom.scss */
 .img-hex {
   margin: 0 auto;
   display: block;
 }
 
-/* line 222, ../scss/custom.scss */
+/* line 221, ../scss/custom.scss */
 .fullwidth {
   width: 100%;
   margin-left: auto;
@@ -9927,20 +9927,20 @@ button.btn.btn-5.btn-5a.icon-arrow.animated.growIn.slow.go {
   max-width: 100% !important;
 }
 
-/* line 230, ../scss/custom.scss */
+/* line 229, ../scss/custom.scss */
 .row {
   margin-top: 2em;
   margin-bottom: 2em;
   max-width: 67.5rem;
 }
 
-/* line 238, ../scss/custom.scss */
+/* line 237, ../scss/custom.scss */
 ul.services-list {
   list-style-type: none;
   line-height: 2.5;
   margin-left: 0;
 }
-/* line 242, ../scss/custom.scss */
+/* line 241, ../scss/custom.scss */
 ul.services-list li {
   font-size: 18pt;
   text-align: center;
@@ -9948,7 +9948,7 @@ ul.services-list li {
   font-family: 'Comfortaa', sans-serif;
 }
 
-/* line 253, ../scss/custom.scss */
+/* line 252, ../scss/custom.scss */
 .hero-text-container {
   position: absolute;
   margin: auto;
@@ -9958,7 +9958,7 @@ ul.services-list li {
   height: 100%;
 }
 
-/* line 262, ../scss/custom.scss */
+/* line 261, ../scss/custom.scss */
 h1.hero-text-main {
   text-align: center;
   text-shadow: rgba(0, 0, 0, 0.3) 2px 6px 5px, rgba(255, 255, 255, 0.4) 0 -4px 30px;
@@ -9966,7 +9966,7 @@ h1.hero-text-main {
   color: #fff;
 }
 
-/* line 270, ../scss/custom.scss */
+/* line 269, ../scss/custom.scss */
 h2.hero-text-secondary {
   text-align: center;
   text-shadow: rgba(0, 0, 0, 0.3) 2px 6px 5px, rgba(255, 255, 255, 0.4) 0 -4px 30px;
@@ -9974,23 +9974,23 @@ h2.hero-text-secondary {
   color: #fff;
 }
 
-/* line 277, ../scss/custom.scss */
+/* line 276, ../scss/custom.scss */
 .orbit-timer, .orbit-slide-number {
   display: none;
 }
 
-/* line 281, ../scss/custom.scss */
+/* line 280, ../scss/custom.scss */
 .orbit-container .orbit-slides-container img {
   width: 100%;
   height: 100vh;
 }
 
-/* line 292, ../scss/custom.scss */
+/* line 291, ../scss/custom.scss */
 .filter-group {
   text-align: center;
 }
 
-/* line 296, ../scss/custom.scss */
+/* line 295, ../scss/custom.scss */
 .button.filter-button {
   background: transparent;
   border: 2px solid transparent;
@@ -10005,7 +10005,7 @@ h2.hero-text-secondary {
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
-/* line 310, ../scss/custom.scss */
+/* line 309, ../scss/custom.scss */
 .button.filter-button:hover {
   border: 2px solid #6699CC;
   background: transparent;
@@ -10014,7 +10014,7 @@ h2.hero-text-secondary {
   outline: none;
 }
 
-/* line 319, ../scss/custom.scss */
+/* line 318, ../scss/custom.scss */
 .button.filter-button.active {
   background: #6699CC;
   border-radius: 10px;
@@ -10023,7 +10023,7 @@ h2.hero-text-secondary {
   outline: none;
 }
 
-/* line 327, ../scss/custom.scss */
+/* line 326, ../scss/custom.scss */
 .grid-test {
   padding: 20px 20px 100px 20px;
   max-width: 1300px;
@@ -10032,7 +10032,7 @@ h2.hero-text-secondary {
   text-align: center;
 }
 
-/* line 335, ../scss/custom.scss */
+/* line 334, ../scss/custom.scss */
 .grid-test li {
   display: inline-block;
   width: 500px;
@@ -10042,13 +10042,13 @@ h2.hero-text-secondary {
   position: relative;
 }
 
-/* line 344, ../scss/custom.scss */
+/* line 343, ../scss/custom.scss */
 .grid-test figure {
   margin: 0;
   position: relative;
 }
 
-/* line 349, ../scss/custom.scss */
+/* line 348, ../scss/custom.scss */
 .grid-test figure img {
   max-width: 100%;
   min-height: 219px;
@@ -10056,7 +10056,7 @@ h2.hero-text-secondary {
   position: relative;
 }
 
-/* line 356, ../scss/custom.scss */
+/* line 355, ../scss/custom.scss */
 .grid-test figcaption {
   position: absolute;
   top: 0;
@@ -10065,24 +10065,24 @@ h2.hero-text-secondary {
   background-color: rgba(28, 55, 100, 0.75);
 }
 
-/* line 365, ../scss/custom.scss */
+/* line 364, ../scss/custom.scss */
 .grid-test figcaption h3 {
   margin: 0;
   padding: 0;
   color: #fff;
 }
 
-/* line 375, ../scss/custom.scss */
+/* line 374, ../scss/custom.scss */
 .cs-style-3 figure {
   overflow: hidden;
 }
 
-/* line 379, ../scss/custom.scss */
+/* line 378, ../scss/custom.scss */
 .cs-style-3 figure img {
   transition: transform 0.4s;
 }
 
-/* line 383, ../scss/custom.scss */
+/* line 382, ../scss/custom.scss */
 .no-touch .cs-style-3 figure:hover img,
 .cs-style-3 figure.cs-hover img {
   -moz-transform: scale(1.5);
@@ -10090,7 +10090,7 @@ h2.hero-text-secondary {
   transform: scale(1.5);
 }
 
-/* line 391, ../scss/custom.scss */
+/* line 390, ../scss/custom.scss */
 .cs-style-3 figcaption {
   height: 100%;
   width: 100%;
@@ -10101,7 +10101,7 @@ h2.hero-text-secondary {
   transition: transform 0.4s, opacity 0.1s 0.3s;
 }
 
-/* line 401, ../scss/custom.scss */
+/* line 400, ../scss/custom.scss */
 hr.horizontal {
   border: solid #fff;
   border-width: 2px 0 0;
@@ -10110,7 +10110,7 @@ hr.horizontal {
   margin: 1.25rem 3rem 1.1875rem;
 }
 
-/* line 409, ../scss/custom.scss */
+/* line 408, ../scss/custom.scss */
 .no-touch .cs-style-3 figure:hover figcaption,
 .cs-style-3 figure.cs-hover figcaption {
   opacity: 1;
@@ -10118,14 +10118,14 @@ hr.horizontal {
   transition: transform 0.4s, opacity 0.1s;
 }
 
-/* line 416, ../scss/custom.scss */
+/* line 415, ../scss/custom.scss */
 .cs-style-3 figcaption a {
   position: absolute;
   bottom: 20px;
   right: 45%;
 }
 
-/* line 422, ../scss/custom.scss */
+/* line 421, ../scss/custom.scss */
 .caption-title {
   text-align: center;
   color: #fff;
@@ -10133,7 +10133,7 @@ hr.horizontal {
   font-family: 'Slabo 13px', serif;
 }
 
-/* line 429, ../scss/custom.scss */
+/* line 428, ../scss/custom.scss */
 .caption-services {
   text-align: center;
   color: #fff;
@@ -10142,7 +10142,7 @@ hr.horizontal {
   font-size: 1rem;
 }
 
-/* line 438, ../scss/custom.scss */
+/* line 437, ../scss/custom.scss */
 .btn-caption-visit {
   background: transparent;
   border: 2px solid #fff;
@@ -10154,12 +10154,12 @@ hr.horizontal {
   -moz-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-/* line 449, ../scss/custom.scss */
+/* line 448, ../scss/custom.scss */
 .btn-caption-visit:active {
   background: #9053a9;
   top: 2px;
 }
-/* line 454, ../scss/custom.scss */
+/* line 453, ../scss/custom.scss */
 .btn-caption-visit span {
   display: inline-block;
   width: 100%;
@@ -10171,12 +10171,12 @@ hr.horizontal {
   transition: all 0.3s;
   backface-visibility: hidden;
 }
-/* line 466, ../scss/custom.scss */
+/* line 465, ../scss/custom.scss */
 .btn-caption-visit:hover {
   background: #fff;
   color: #6699CC;
 }
-/* line 471, ../scss/custom.scss */
+/* line 470, ../scss/custom.scss */
 .btn-caption-visit:before {
   position: absolute;
   height: 100%;
@@ -10187,64 +10187,64 @@ hr.horizontal {
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
-/* line 482, ../scss/custom.scss */
+/* line 481, ../scss/custom.scss */
 .btn-caption-visit:active:before {
   color: #703b87;
 }
 
 @media screen and (max-width: 31.5em) {
-  /* line 490, ../scss/custom.scss */
+  /* line 489, ../scss/custom.scss */
   .grid-test {
     padding: 10px 10px 100px 10px;
   }
 
-  /* line 493, ../scss/custom.scss */
+  /* line 492, ../scss/custom.scss */
   .grid-test li {
     width: 100%;
     min-width: 300px;
   }
 }
-/* line 500, ../scss/custom.scss */
+/* line 499, ../scss/custom.scss */
 #Container .mix {
   display: none;
 }
 
-/* line 505, ../scss/custom.scss */
+/* line 504, ../scss/custom.scss */
 footer {
   background: #0F1041;
 }
 
-/* line 509, ../scss/custom.scss */
+/* line 508, ../scss/custom.scss */
 h2.section-title.footer {
   color: #fff;
 }
 
-/* line 513, ../scss/custom.scss */
+/* line 512, ../scss/custom.scss */
 .form-container {
   margin: 0 auto;
   max-width: 500px;
   text-align: center;
 }
 
-/* line 519, ../scss/custom.scss */
+/* line 518, ../scss/custom.scss */
 .footer-text {
   text-align: center;
   color: #fff;
   font-family: 'Comfortaa', sans-serif;
 }
 
-/* line 525, ../scss/custom.scss */
+/* line 524, ../scss/custom.scss */
 .bottom-row {
   padding: 1em;
 }
 
-/* line 529, ../scss/custom.scss */
+/* line 528, ../scss/custom.scss */
 .site-copy {
   color: #fff;
   margin-bottom: 0;
 }
 
-/* line 534, ../scss/custom.scss */
+/* line 533, ../scss/custom.scss */
 .lower-icon {
   position: absolute;
   z-index: 2;
@@ -10252,20 +10252,20 @@ h2.section-title.footer {
   bottom: 1.5rem;
 }
 
-/* line 540, ../scss/custom.scss */
+/* line 539, ../scss/custom.scss */
 img.hops-icon {
   width: 50px;
   height: 50px;
 }
 
-/* line 548, ../scss/custom.scss */
+/* line 547, ../scss/custom.scss */
 span.form-icon {
   border: none !important;
   background: #1C3664 !important;
   color: #fff !important;
 }
 
-/* line 554, ../scss/custom.scss */
+/* line 553, ../scss/custom.scss */
 input[type="text"], input[type="email"] {
   color: #1C3664 !important;
   font-weight: 600;
@@ -10278,18 +10278,26 @@ input[type="text"], input[type="email"] {
   -moz-transition: all 0.3s !important;
   transition: all 0.3s !important;
 }
-/* line 566, ../scss/custom.scss */
+/* line 565, ../scss/custom.scss */
 input[type="text"]:focus, input[type="email"]:focus {
   background: #1C3664 !important;
   border-bottom: 2px solid #6699CC !important;
   color: #fff !important;
 }
-/* line 572, ../scss/custom.scss */
+/* line 571, ../scss/custom.scss */
 input[type="text"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder {
   color: #fff;
 }
 
 /* line 578, ../scss/custom.scss */
+select.contact-form-select {
+  background: #6699CC;
+  color: #fff;
+  border: none !important;
+  font-weight: 600;
+}
+
+/* line 587, ../scss/custom.scss */
 small.error {
   background: #CF2127 !important;
   border-top: 4px solid #a81a1f !important;
