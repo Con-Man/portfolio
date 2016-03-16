@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
 <html class="no-js" lang="en">
-	<head>
+	<head  itemscope itemtype="http://schema.org/WebSite">
 
 	<!-- General Meta Data -->
 		<meta charset="utf-8">
@@ -19,13 +19,13 @@
 				<meta name="twitter:title" content="Connor Shocrylas - Conquering Digital Landscapes"/>
 				<meta name="twitter:description" content="My name is Connor Shocrylas and I’m an innovtative, self-starter obsessed with everything digital. I have been climbing the digital peaks for over 5 years and have had the pleasure to work with over 40+ clients. If you are looking for a leader, designer, or developer then you have come to the right place! "/>
 
-				<meta name="twitter:image" content="http://con-shoc.github.io/img/twitter-card.png"/>
+				<meta name="twitter:image" content="https://con-shoc.github.io/img/twitter-card.png"/>
 				
 
 			<!-- OG Data -->
 			<meta property="og:url" content="https://con-shoc.github.io/"/>
 			<meta property="og:title" content="Connor Shocrylas - Conquering Digital Landscapes"/>
-			<meta property="og:description" content="My name is Connor Shocrylas and I’m an innovtative, self-starter obsessed with everything digital. I have been climbing the digital peaks for over 5 years and have had the pleasure to work with over 40+ clients. If you are looking for a leader, designer, or developer then you have come to the right place!"/>
+			<meta name="description" property="og:description" content="My name is Connor Shocrylas and I’m an innovtative, self-starter obsessed with everything digital. I have been climbing the digital peaks for over 5 years and have had the pleasure to work with over 40+ clients. If you are looking for a leader, designer, or developer then you have come to the right place!"/>
 			<meta property="og:locale" content="en_US" />
 			<meta property="og:image" content="https://con-shoc.github.io/img/twitter-card.png"/>
 			<meta property="og:type" content="website" />
@@ -45,9 +45,9 @@
 				  ga('send', 'pageview');
 			</script>
 
-		<title>Connor Shocrylas - Web Development, Design & Digital Marketing</title>
+		<title  itemprop='name'>Connor Shocrylas - Web Development, Design & Digital Marketing</title>
 		<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
-		<link rel="canonical" href="https://con-shoc.github.io/" />
+		<link rel="canonical" href="https://con-shoc.github.io/" itemprop="url" />
 		 
 		
 		<link rel="stylesheet" href="stylesheets/custom.css">
@@ -403,6 +403,21 @@
 				</div>
 			</div>
 		</footer>
+
+		<script type="application/ld+json">
+			{
+			  "@context" : "http://schema.org",
+			  "@type" : "Person",
+			  "name" : "Connor Shocrylas",
+			  "url" : "https://con-shoc.github.io",
+			  "sameAs" : [
+			    "http://www.facebook.com/connor.shocrylas",
+			    "http://www.linkedin.com/in/conshoc",
+			    "http://google.com/+ConnorShocrylas",
+			    "http://twitter.com/Con_Shoc"
+			  ]
+			}
+		</script>
 
 		<!-- <script src="bower_components/jquery/dist/jquery.min.js"></script> -->
 		<script src="bower_components/modernizr/modernizr.js"></script>
