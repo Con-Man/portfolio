@@ -5,7 +5,7 @@ add_import_path "bower_components/foundation/scss"
 http_path = "/"
 css_dir = "stylesheets"
 sass_dir = "scss"
-images_dir = "images"
+images_dir = "img"
 javascripts_dir = "js"
 output_style = :compressed
 

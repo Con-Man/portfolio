@@ -1,0 +1,13 @@
+// Services
+ul.services-list {
+    list-style-type: none;
+    line-height: 2.5;
+    margin-left: 0;
+
+    li {
+        font-size: 18pt;
+        text-align: center;
+        color: $primary-color;
+        font-family: 'Comfortaa', sans-serif;
+    }
+}

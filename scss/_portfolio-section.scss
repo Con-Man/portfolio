@@ -1,0 +1,207 @@
+//  Grid/Portfolio
+.filter-group {
+    text-align: center;
+}
+
+.button.filter-button {
+    background: transparent;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    color: $primary-color;
+    font-family: 'Comfortaa', Sans-serif;
+    padding: 1em !important;
+    margin-left: 2.5rem;
+    outline: none;
+    text-align: center;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+
+    &:hover {
+        border: 2px solid $primary-color;
+        background: transparent;
+        border-radius: 10px;
+        color: $primary-color;
+        outline: none;
+    }
+}
+
+.button.filter-button.active {
+    background: $primary-color;
+    border-radius: 10px;
+    color: $white;
+    border: 2px solid transparent;
+    outline: none;
+}
+
+.grid-test {
+    padding: 20px 20px 100px 20px;
+    max-width: 1300px;
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+}
+
+.grid-test li {
+    display: inline-block;
+    width: 500px;
+    margin: 0;
+    padding: 20px;
+    text-align: left;
+    position: relative;
+}
+
+.grid-test figure {
+    margin: 0;
+    position: relative;
+}
+
+.grid-test figure img {
+    max-width: 100%;
+    min-height: 219px;
+    display: block;
+    position: relative;
+}
+
+.grid-test figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    background-color: rgba(28, 55, 100, 0.75);
+}
+
+.grid-test figcaption h3 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+// .grid-test figcaption span:before {
+// 	content: 'by ';
+// }
+.cs-style-3 figure {
+    overflow: hidden;
+}
+
+.cs-style-3 figure img {
+    transition: transform 0.4s;
+}
+
+.no-touch .cs-style-3 figure:hover img,
+.cs-style-3 figure.cs-hover img {
+    // transform: translateY(-50px);
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.cs-style-3 figcaption {
+    height: 100%;
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: transform 0.4s, opacity 0.1s 0.3s;
+}
+
+hr.horizontal {
+    border: solid #fff;
+    border-width: 2px 0 0;
+    clear: both;
+    height: 0;
+    margin: 1.25rem 3rem 1.1875rem;
+}
+
+.no-touch .cs-style-3 figure:hover figcaption,
+.cs-style-3 figure.cs-hover figcaption {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: transform 0.4s, opacity 0.1s;
+}
+
+.cs-style-3 figcaption a {
+    position: absolute;
+    bottom: 20px;
+    right: 45%;
+}
+
+.caption-title {
+    text-align: center;
+    color: $white;
+    font-size: 1.4rem;
+    font-family: 'Slabo 13px', serif;
+}
+
+.caption-services {
+    text-align: center;
+    color: $white;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.btn-caption-visit {
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Comfortaa', sans-serif;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+    &:active {
+        background: #9053a9;
+        top: 2px;
+    }
+
+    span {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: all 0.3s;
+        -webkit-backface-visibility: hidden;
+        -moz-transition: all 0.3s;
+        -moz-backface-visibility: hidden;
+        transition: all 0.3s;
+        backface-visibility: hidden;
+    }
+
+    &:hover {
+        background: $white;
+        color: $primary-color;
+    }
+
+    &:before {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        line-height: 1.2;
+        font-size: 180%;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+
+    &:active:before {
+        color: #703b87;
+    }
+}
+
+@media screen and (max-width: 31.5em) {
+    .grid-test {
+        padding: 10px 10px 100px 10px;
+    }
+
+    .grid-test li {
+        width: 100%;
+        min-width: 300px;
+    }
+}
+
+#Container .mix {
+    display: none;
+}
