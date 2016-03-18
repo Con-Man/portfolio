@@ -1,435 +1,385 @@
-
 <!DOCTYPE html>
 <!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
 <html class="no-js" lang="en">
-	<head  itemscope itemtype="http://schema.org/WebSite">
 
-	<!-- General Meta Data -->
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="robots" content="all" />
+<head itemscope itemtype="http://schema.org/WebSite">
+    <!-- General Meta Data -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="all" />
+    <!-- End of General Meta Data -->
+    <!-- Social Meta Data -->
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@Con_Shoc" />
+    <meta name="twitter:title" content="Connor Shocrylas - Conquering Digital Landscapes" />
+    <meta name="twitter:description" content="My name is Connor Shocrylas and I’m an innovtative, self-starter obsessed with everything digital." />
+    <meta name="twitter:image" content="https://con-shoc.github.io/img/twitter-card.png" />
+    <!-- OG Data -->
+    <meta property="og:url" content="https://con-shoc.github.io/" />
+    <meta property="og:title" content="Connor Shocrylas - Conquering Digital Landscapes" />
+    <meta name="description" property="og:description" content="My name is Connor Shocrylas and I’m an innovtative, self-starter obsessed with everything digital." />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:image" content="https://con-shoc.github.io/img/twitter-card.png" />
+    <meta property="og:type" content="website" />
+    <!-- End of Social Meta Data -->
+    <!-- Google Data -->
+    <script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
+    ga('create', 'UA-75227625-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+    <title itemprop='name'>Connor Shocrylas - Web Development, Design & Digital Marketing</title>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <link rel="canonical" href="https://con-shoc.github.io/" itemprop="url" />
+    <link rel="stylesheet" href="stylesheets/custom.css">
+    <!-- <link rel="stylesheet" href="stylesheets/animate.css"> -->
+    <link rel="stylesheet" href="stylesheets/animations.css">
+    <link rel="stylesheet" href="fonts/font-awesome-4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stylesheets/icon-button.css">
+    <link rel="stylesheet" href="stylesheets/app.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
 
-	<!-- End of General Meta Data -->
-
-		<!-- Social Meta Data -->
-			<!-- Twitter Card -->
-				<meta name="twitter:card" content="summary_large_image"/>
-				<meta name="twitter:site" content="@Con_Shoc"/>
-				<meta name="twitter:title" content="Connor Shocrylas - Conquering Digital Landscapes"/>
-				<meta name="twitter:description" content="My name is Connor Shocrylas and I’m an innovtative, self-starter obsessed with everything digital."/>
-
-				<meta name="twitter:image" content="https://con-shoc.github.io/img/twitter-card.png"/>
-				
-
-			<!-- OG Data -->
-			<meta property="og:url" content="https://con-shoc.github.io/"/>
-			<meta property="og:title" content="Connor Shocrylas - Conquering Digital Landscapes"/>
-			<meta name="description" property="og:description" content="My name is Connor Shocrylas and I’m an innovtative, self-starter obsessed with everything digital."/>
-			<meta property="og:locale" content="en_US" />
-			<meta property="og:image" content="https://con-shoc.github.io/img/twitter-card.png"/>
-			<meta property="og:type" content="website" />
-
-
-		<!-- End of Social Meta Data -->
-
-		<!-- Google Data -->
-
-			<script>
-				  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-				  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-				  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-				  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-				  ga('create', 'UA-75227625-1', 'auto');
-				  ga('send', 'pageview');
-			</script>
-
-		<title  itemprop='name'>Connor Shocrylas - Web Development, Design & Digital Marketing</title>
-		<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
-		<link rel="canonical" href="https://con-shoc.github.io/" itemprop="url" />
-		 
-		
-		<link rel="stylesheet" href="stylesheets/custom.css">
-		<link rel="stylesheet" href="stylesheets/animate.css">
-		<link rel="stylesheet" href="stylesheets/animations.css">
-		<link rel="stylesheet" href="fonts/font-awesome-4.5.0/css/font-awesome.css">
-		<link rel="stylesheet" href="stylesheets/icon-buttons.css">
-
-		 <link rel="stylesheet" href="stylesheets/app.css" />
-		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.js"></script>
-		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-		 
-
-	</head>
-	<body>
-
-	<div id="home"></div>
-		<nav class="nav fixed contain-to-grid" role="navigation">
-
-			<div class="large-12 columns">
-
-				<div class="title-area small-6 large-6 columns">
-					<a href="#home">
-						<h1 class="name">
+<body>
+    <div id="home"></div>
+    <nav class="nav fixed contain-to-grid" role="navigation">
+        <div class="large-12 columns">
+            <div class="title-area small-6 large-6 columns">
+                <a href="#home">
+                    <h1 class="name">
 							Connor Shocrylas
 						</h1>
-					</a>
-				</div>	 
-
-
-
-				<div class="icon-section small-6 large-6 columns">
-					<div class="nav icon-bar four-up">
-						<a href="#about" class="item" aria-labelledby="#itemlabel1">
-							<i class="fa fa-user fa-5"></i>
-							<label id='itemlabel1'>About</label>
-						</a>
-
-						<a  href="#services" class="item" aria-labelledby="#itemlabel2">
-							<i class="fa fa-cog"></i>
-							<label id='itemlabel2'>Services</label>
-						</a>
-
-						<a href="#work" class="item" aria-labelledby="#itemlabel3">
-							<i class="fa fa-paint-brush"></i>
-							<label id='itemlabel3'>Portfolio</label>
-						</a>
-						<a  href="#contact" class="item" aria-labelledby="#itemlabel4">
-							<i class="fa fa-paper-plane"></i>
-							<label id='itemlabel4'>Contact</label>
-						</a>
-					</div>
-				</div>
-
-			</div>
-			
-
-		</nav>
-
-
-
-
-	<section id="main" class="animatedParent animateOnce" data-sequence="700">
-		<div class="row fullwidth splash">
-				<ul class="example-orbit-content" data-orbit data-options="slide_number:false; infiniteWrap:true; timer:true; bullets:false; navigation_arrows:false; pause_on_hover:false; autoPlay:true; swipe:true; next_on_click: false; timer_speed: 6500;  timer_container_class: orbit-timer;"> 
-			<li data-orbit-slide="headline-i">
-				<div>
-					<div class="hero-text-container">
-						<h1 class="hero-text-main animated growIn slow" data-id="1">Conquering Digital Landscapes</h1>
-						<h2 class="hero-text-secondary animated growIn slow" data-id="1">One project at a time...</h2>
-						<button class="btn btn-5 btn-5a icon-arrow animated growIn slow" data-id="1"><span>Explore!</span></button>			
-					</div>
-					<img src="./img/mountains-splash.png"/>
-				</div> 
-			</li>
-			<li data-orbit-slide="headline-i">
-			<div>
-				<div class="hero-text-container">
-					<h1 class="hero-text-main">Navigating the Ditial Forest</h1>
-					<h2 class="hero-text-secondary">One project at a time...</h2>
-					<button class=" test btn btn-5 btn-5a icon-arrow animated growIn slow" data-id="3"><span>Explore!</span></button>	
-				</div>
-				<img src="./img/trees-splash.png"/>
-			</div> 
-		</li> 
-		</ul>
-		</div>
-		<div id="below-main"><p id="about"></p></div>
-	</section>
-
-<br><br><br>
-	<section>
-		<div class ="large-12">
-			<h2 class="section-title">Hi There!</h2>
-
-			<div class="row">
-
-				<div class="large-4 columns">
-					<img class="img-hex" src="./img/headshot.png" alt="headshot"/>
-				</div>
-
-				<div class="large-8 columns">
-					<p>
-						My name is Connor Shocrylas and I’m an innovtative, self-starter obsessed with everything digital. I have been climbing the digital peaks for over 5 years and have had the pleasure to work with over 40+ clients. If you are looking for a leader, designer,  or developer then you have come to the right place! 
-						</br></br>
-						Over the years I have worked with small NGO’s and large corporations who emloy a staff of 700+. If you ask any past client of mine they will always say that I know how to build relationships and capture their goals online.
-					 </p>
-				</div>
-
-			</div>
-			</br>
-
-			<div class="row animated">
-				<div class="large-8 columns">
-					<p>
-						I am the Swiss Army knife of the digital field and use my expansive skill set to drive success and inspire teams. My background is extensive and I worked positions in both the private and public sector. I also have 2 years of professional agnecy experience.
-						</br></br>
-						When working with clients, one of my many goals is to faciltate a creative/educational environment. I aim to teach and coach individuals on best practices 
-					 </p>
-				</div>
-
-				<div class="large-4 columns">
-					<img class="img-hex" src="./img/hex-swiss-army.png" alt="headshot"/>
-				</div>
-			</div>
-		</div>
-		</section>	
-		<div id="services"></div>
-		<br><br><br>
-		<section>
-			<h2 class="section-title">Some of My Skillz</h2>
-			<br>
-			<div class="row">
-
-				<div class="large-6 columns">
-					<h3 class="services-title">Technical & Digital</h3>
-					<ul class="services-list"> 
-						<li>Digital Design & Front-end Development</li>
-						<li>Back-end Development</li>
-
-						<li>CMS Integration</li>
-
-						<li>Web Strategy </li>
-
-						<li>SEO </li>
-
-						<li>Analytics</li>
-
-						<li>Wireframing & Information Architecture (IA)</li>
-
-						<li>Testing & QA</li>
-					</ul>
-				</div>
-
-				<div class="large-6 columns">
-					<h3 class="services-title">Non-Technical</h3>
-					<ul class="services-list"> 
-						<li>Project Management</li>
-
-						<li>Account Management</li>
-
-						<li>Digital Sales</li>
-
-						<li>Inbound Marketing</li>
-
-						<li>CRM Data Management</li>
-
-						<li>Email Marketing</li>
-
-						<li>RFP’s & SOW’s</li>
-
-						<li>Office Culture</li>
-						
-					</ul>
-				</div>
-
-			</div>
-			
-		</section>
-
-		<div id="work"></div>
-		<br><br><br>
-		<section>
-			<h2 class="section-title"> My Work</h2>
-
-			<div class="row filter-group">
-			  <button class="button filter-button active" data-filter="*">Show All</button>
-			  <button class="button filter-button" data-filter=".design">Design</button>
-			  <button class="button filter-button" data-filter=".development">Development</button>
-			  <button class="button filter-button" data-filter=".projectaccount">Project/Account Management</button>
-			  <button class="button filter-button" data-filter=".analyticsseo">Analytics/SEO</button>
-			</div>
-
-			<div class="row grid">
-				<ul class="grid-test cs-style-3">
-					<li class="element-item transition design projectaccount" data-category="transition">
-						<figure>
-							<img src="./img/norex-legal.png" alt="img01">
-							<figcaption>
-								<h3 class="caption-title">Norex Legal Website</h3>
-								<hr class="horizontal">
-								<p class="caption-services">Project Management, SEO, Analytics</p>
-								<div class="hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5d">
-									<a href="http://sitebynorex.ca/legal" class="hi-icon hi-icon-link">Visit Site</a>
-								</div>
-							</figcaption>
-						</figure>
-					</li>
-					<li class="element-item transition development analyticsseo" data-category="transition">
-						<figure>
-							<img src="./img/fish-img.png" alt="img01">
-							<figcaption>
-								<h3 class="caption-title">Fish & Richardson</h3>
-								<hr class="horizontal">
-								<p class="caption-services">Account Management, Project Management, SEO, Testing & QA, Training</p>
-								<div class="hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5d">
-									<a href="http://sitebynorex.ca/legal" class="hi-icon hi-icon-link">Visit Site</a>
-								</div>
-							</figcaption>
-						</figure>
-					</li>
-
-					<li class="element-item transition development analyticsseo" data-category="transition">
-						<figure>
-							<img src="./img/wsicf-img.png" alt="img01">
-							<figcaption>
-								<h3 class="caption-title">Who Says I Cant Foundation</h3>
-								<hr class="horizontal">
-								<p class="caption-services">Account Management, Development, Design</p>
-								<!-- <a href="http://dribbble.com/shots/1115632-Camera"><i class="fa fa-rocket"></i>Visit Site</a> -->
-								<a id="attachmentName" class="btn-caption-visit btn-caption-visit-1 icon-rocket" href="http://sitebynorex.ca/legal"><span>Visit Site</span></a>	
-							</figcaption>
-						</figure>
-					</li>
-
-					<li class="element-item transition development analyticsseo" data-category="transition">
-						<figure>
-							<img src="./img/norex-legal.png" alt="img01">
-							<figcaption>
-								<h3 class="caption-title">Norex Legal Website</h3>
-								<hr class="horizontal">
-								<p class="caption-services">Project Management, SEO, Analytics</p>
-								<!-- <a href="http://dribbble.com/shots/1115632-Camera"><i class="fa fa-rocket"></i>Visit Site</a> -->
-								<a id="attachmentName" class="btn-caption-visit btn-caption-visit-1 icon-rocket" href="http://sitebynorex.ca/legal"><span>Visit Site</span></a>	
-							</figcaption>
-						</figure>
-					</li>
-
-					<li class="element-item transition development analyticsseo" data-category="transition">
-						<figure>
-							<img src="./img/norex-legal.png" alt="img01">
-							<figcaption>
-								<h3 class="caption-title">Norex Legal Website</h3>
-								<hr class="horizontal">
-								<p class="caption-services">Project Management, SEO, Analytics</p>
-								<!-- <a href="http://dribbble.com/shots/1115632-Camera"><i class="fa fa-rocket"></i>Visit Site</a> -->
-								<a id="attachmentName" class="btn-caption-visit btn-caption-visit-1 icon-rocket" href="http://sitebynorex.ca/legal"><span>Visit Site</span></a>	
-							</figcaption>
-						</figure>
-					</li>
-					
-					</ul>
-				</div>
-			
-		</section>
-
-		<br><br><br><br>
-
-		<footer class="large-12 columns">
-		<br><br>
-			<h2 id="contact" class="section-title footer">
+                </a>
+            </div>
+            <div class="icon-section small-6 large-6 columns">
+                <div class="nav icon-bar four-up">
+                    <a href="#about" class="item" aria-labelledby="#itemlabel1">
+                        <i class="fa fa-user fa-5"></i>
+                        <label id='itemlabel1'>About</label>
+                    </a>
+                    <a href="#services" class="item" aria-labelledby="#itemlabel2">
+                        <i class="fa fa-cog"></i>
+                        <label id='itemlabel2'>Services</label>
+                    </a>
+                    <a href="#work" class="item" aria-labelledby="#itemlabel3">
+                        <i class="fa fa-paint-brush"></i>
+                        <label id='itemlabel3'>Portfolio</label>
+                    </a>
+                    <a href="#contact" class="item" aria-labelledby="#itemlabel4">
+                        <i class="fa fa-paper-plane"></i>
+                        <label id='itemlabel4'>Contact</label>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section id="main" class="animatedParent animateOnce" data-sequence="700">
+        <div class="row fullwidth splash">
+            <ul class="example-orbit-content" data-orbit data-options="slide_number:false; infiniteWrap:true; timer:true; bullets:false; navigation_arrows:false; pause_on_hover:false; autoPlay:true; swipe:true; next_on_click: false; timer_speed: 6500;  timer_container_class: orbit-timer;">
+                <li data-orbit-slide="headline-i">
+                    <div>
+                        <div class="hero-text-container">
+                            <h1 class="hero-text-main animated growIn slow" data-id="1">Conquering Digital Landscapes</h1>
+                            <h2 class="hero-text-secondary animated growIn slow" data-id="1">One project at a time...</h2>
+                            <!-- 	<div class="image-container">
+								<img class="svg" src="./img/mouse-icon.svg"/>
+							</div>
+							<button class="btn btn-5 btn-5a icon-arrow animated growIn slow" data-id="1"><span>Explore!</span></button>		 -->
+                        </div>
+                        <img src="./img/mountains-splash.png" alt="Digital Mountains" />
+                    </div>
+                </li>
+                <li data-orbit-slide="headline-i">
+                    <div>
+                        <div class="hero-text-container">
+                            <h1 class="hero-text-main">Navigating the Ditial Forest</h1>
+                            <h2 class="hero-text-secondary">One project at a time...</h2>
+                            <!-- <button class=" test btn btn-5 btn-5a icon-arrow animated growIn slow" data-id="3"><span>Explore!</span></button> -->
+                        </div>
+                        <img src="./img/trees-splash.png" alt="Digital Forest" />
+                    </div>
+                </li>
+            </ul>
+            <a class="mouse-scroll animated growIn slow" data-id="1" href="#">
+                <span class="mouse">
+					    	<span class="mouse-movement"></span>
+                </span>
+            </a>
+        </div>
+        <div id="below-main">
+            <p id="about"></p>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <section>
+        <div class="large-12">
+            <h2 class="section-title">Hi There!</h2>
+            <div class="row">
+                <div class="large-4 columns">
+                    <img class="img-hex" src="./img/headshot.png" alt="Connor SHocrylas Headshot" />
+                </div>
+                <div class="large-8 columns">
+                    <p>
+                        My name is Connor Shocrylas and I’m an innovtative, self-starter obsessed with everything digital. I have been climbing the digital peaks for over 5 years and have had the pleasure to work with over 40+ clients. If you are looking for a leader, designer, or developer then you have come to the right place!
+                        </br>
+                        </br>
+                        Over the years I have worked with small NGO’s and large corporations who emloy a staff of 700+. If you ask any past client of mine they will always say that I know how to build relationships and capture their goals online.
+                    </p>
+                </div>
+            </div>
+            </br>
+            <div class="row animated">
+                <div class="large-8 columns">
+                    <p>
+                        I am the Swiss Army knife of the digital field and use my expansive skill set to drive success and inspire teams. My background is extensive and I worked positions in both the private and public sector. I also have 2 years of professional agnecy experience.
+                        </br>
+                        </br>
+                        When working with clients, one of my many goals is to faciltate a creative/educational environment. I aim to teach and coach individuals on best practices
+                    </p>
+                </div>
+                <div class="large-4 columns">
+                    <img class="img-hex" src="./img/hex-swiss-army.png" alt="Swiss Army Knife of the Technology World" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="services"></div>
+    <br>
+    <br>
+    <br>
+    <section>
+        <h2 class="section-title">Some of My Skillz</h2>
+        <br>
+        <div class="row">
+            <div class="large-6 columns">
+                <h3 class="services-title">Technical & Digital</h3>
+                <ul class="services-list">
+                    <li>Digital Design & Front-end Development</li>
+                    <li>Back-end Development</li>
+                    <li>CMS Integration</li>
+                    <li>Web Strategy </li>
+                    <li>SEO </li>
+                    <li>Analytics</li>
+                    <li>Wireframing & Information Architecture (IA)</li>
+                    <li>Testing & QA</li>
+                </ul>
+            </div>
+            <div class="large-6 columns">
+                <h3 class="services-title">Non-Technical</h3>
+                <ul class="services-list">
+                    <li>Project Management</li>
+                    <li>Account Management</li>
+                    <li>Digital Sales</li>
+                    <li>Inbound Marketing</li>
+                    <li>CRM Data Management</li>
+                    <li>Email Marketing</li>
+                    <li>RFP’s & SOW’s</li>
+                    <li>Office Culture</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <div id="work"></div>
+    <br>
+    <br>
+    <br>
+    <section>
+        <h2 class="section-title"> My Work</h2>
+        <div class="row filter-group">
+            <button class="button filter-button active" data-filter="*">Show All</button>
+            <button class="button filter-button" data-filter=".design">Design</button>
+            <button class="button filter-button" data-filter=".development">Development</button>
+            <button class="button filter-button" data-filter=".projectaccount">Project/Account Management</button>
+            <button class="button filter-button" data-filter=".analyticsseo">Analytics/SEO</button>
+        </div>
+        <div class="row grid">
+            <ul class="grid-test cs-style-3">
+                <li class="element-item transition design projectaccount" data-category="transition">
+                    <figure>
+                        <img src="./img/norex-legal.png" alt="Norex Legal Site">
+                        <figcaption>
+                            <h3 class="caption-title">Norex Legal Website</h3>
+                            <hr class="horizontal">
+                            <p class="caption-services">Project Management, SEO, Analytics</p>
+                            <div class="hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5d">
+                                <a href="http://sitebynorex.ca/legal" class="hi-icon hi-icon-link">Visit Site</a>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="element-item transition development analyticsseo" data-category="transition">
+                    <figure>
+                        <img src="./img/fish-img.png" alt="Fish and Richardson">
+                        <figcaption>
+                            <h3 class="caption-title">Fish & Richardson</h3>
+                            <hr class="horizontal">
+                            <p class="caption-services">Account Management, Project Management, SEO, Testing & QA, Training</p>
+                            <div class="hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5d">
+                                <a href="http://sitebynorex.ca/legal" class="hi-icon hi-icon-link">Visit Site</a>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="element-item transition development analyticsseo" data-category="transition">
+                    <figure>
+                        <img src="./img/wsicf-img.png" alt="img01">
+                        <figcaption>
+                            <h3 class="caption-title">Who Says I Cant Foundation</h3>
+                            <hr class="horizontal">
+                            <p class="caption-services">Account Management, Development, Design</p>
+                            <!-- <a href="http://dribbble.com/shots/1115632-Camera"><i class="fa fa-rocket"></i>Visit Site</a> -->
+                            <a id="attachmentName" class="btn-caption-visit btn-caption-visit-1 icon-rocket" href="http://sitebynorex.ca/legal"><span>Visit Site</span></a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="element-item transition development analyticsseo" data-category="transition">
+                    <figure>
+                        <img src="./img/norex-legal.png" alt="img01">
+                        <figcaption>
+                            <h3 class="caption-title">Norex Legal Website</h3>
+                            <hr class="horizontal">
+                            <p class="caption-services">Project Management, SEO, Analytics</p>
+                            <!-- <a href="http://dribbble.com/shots/1115632-Camera"><i class="fa fa-rocket"></i>Visit Site</a> -->
+                            <a id="attachmentName" class="btn-caption-visit btn-caption-visit-1 icon-rocket" href="http://sitebynorex.ca/legal"><span>Visit Site</span></a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="element-item transition development analyticsseo" data-category="transition">
+                    <figure>
+                        <img src="./img/norex-legal.png" alt="img01">
+                        <figcaption>
+                            <h3 class="caption-title">Norex Legal Website</h3>
+                            <hr class="horizontal">
+                            <p class="caption-services">Project Management, SEO, Analytics</p>
+                            <!-- <a href="http://dribbble.com/shots/1115632-Camera"><i class="fa fa-rocket"></i>Visit Site</a> -->
+                            <a id="attachmentName" class="btn-caption-visit btn-caption-visit-1 icon-rocket" href="http://sitebynorex.ca/legal"><span>Visit Site</span></a>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer class="large-12 columns">
+        <br>
+        <br>
+        <h2 id="contact" class="section-title footer">
 				Let's Chat
 			</h2>
-
-			<p class="footer-text">
-				Are you a client looking to hire me for work? <br>
-				Are you an employer looking to employee me? <br><br>
-				Fill out the form below so that we can start a conversation!
-			 </p>
-
-
-			<div class="form-container">
-				<form action="//formspree.io/Cshocrylas@gmail.com" method="POST" data-abide>
-					<div class="row">
-						<input type="hidden" name="_next" value="http://google.com" />
-						<input type="hidden" name="_subject" value="New submission!" />
-					    <div class="row">
-
-						    <div class="large-6 columns">
-						    	<div class="row collapse prefix-radius">
-						     		<div class="small-3 columns">
-						        		<span class="form-icon prefix">
+        <p class="footer-text">
+            Are you a client looking to hire me for work?
+            <br> Are you an employer looking to employee me?
+            <br>
+            <br> Fill out the form below so that we can start a conversation!
+        </p>
+        <div class="form-container">
+            <form action="//formspree.io/Cshocrylas@gmail.com" method="POST" data-abide>
+                <div class="row">
+                    <input type="hidden" name="_next" value="http://google.com" />
+                    <input type="hidden" name="_subject" value="New submission!" />
+                    <div class="row">
+                        <div class="large-6 columns">
+                            <div class="row collapse prefix-radius">
+                                <div class="small-3 columns">
+                                    <span class="form-icon prefix">
 						        			<i class="fa fa-user"></i>
 						        		</span>
-						        	</div>
-						        <div class="small-9 columns">
-						        	<input class="contact-field" type="text" required placeholder="Name">
-						        	<small class="error">This field is required.</small>
-						        </div>
-						      </div>
-						    </div>
-
-						    <div class="large-6 columns">
-						    	<div class="row collapse prefix-radius">
-						        	<div class="small-3 columns">
-						          		<span class="form-icon prefix">
+                                </div>
+                                <div class="small-9 columns">
+                                    <input class="contact-field" type="text" required placeholder="Name">
+                                    <small class="error">This field is required.</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="large-6 columns">
+                            <div class="row collapse prefix-radius">
+                                <div class="small-3 columns">
+                                    <span class="form-icon prefix">
 						          			<i class="fa fa-envelope"></i>
 						          		</span>
-						        </div>
+                                </div>
+                                <div class="small-9 columns">
+                                    <input class="contact-field" type="email" name="_replyto" required placeholder="Email">
+                                    <small class="error">A valid Email Address is required..</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="large-12 columns">
+                            <div class="row collapse prefix-radius">
+                                <select class="contact-form-select" required>
+                                    <option class="select-disabled" value="" disabled selected>Reason for Contact</option>
+                                    <option class="select-option" value="quote">Project Quote</option>
+                                    <option class="select-option" value="job">Employment</option>
+                                    <option class="select-option" value="issue">Site Issue</option>
+                                </select>
+                                <small class="error">Please select a reason for contact.</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="large-12 columns">
+                            <textarea placeholder="Message" required></textarea>
+                            <small class="error">Please type your message here.</small>
+                        </div>
+                    </div>
+                    <input type="text" name="_gotcha" style="display:none" />
+                    <div class="row">
+                        <button class="small button" name="Send" type="submit" value="Send">Send er' Off</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="bottom-row large-12 columns">
+            <p class="site-copy">© Connor Shocrylas, 2016. All Right Reserved.</p>
+            <div class="lower-icon">
+                <img class="hops-icon" src="img/hops-icon.svg" alt="Hops Icon!! Yay">
+            </div>
+        </div>
+    </footer>
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Connor Shocrylas",
+        "url": "https://con-shoc.github.io",
+        "sameAs": [
+            "http://www.facebook.com/connor.shocrylas",
+            "http://www.linkedin.com/in/conshoc",
+            "http://google.com/+ConnorShocrylas",
+            "http://twitter.com/Con_Shoc"
+        ]
+    }
+    </script>
+    <!-- <script src="bower_components/jquery/dist/jquery.min.js"></script> -->
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <!-- <script src="bower_components/foundation/js/foundation/foundation.orbit.js"></script> -->
+    <script src="js/app.js"></script>
+    <script src="js/css3-animate-it.js"></script>
+    <!-- <script src="bower_components/foundation/js/foundation/foundation.topbar.js"></script>	 -->
+    <script>
+    $(document).foundation();
+    </script>
+</body>
 
-						        <div class="small-9 columns">
-						          <input class="contact-field" type="email" name="_replyto" required placeholder="Email">
-						          <small class="error">A valid Email Address is required..</small>
-						        </div>
-						      </div>
-						    </div>
-
-	 					</div>
-
-						<div class="row">
-							<div class="large-12 columns">
-							<div class="row collapse prefix-radius">
-								<select class="contact-form-select" required>
-									<option class="select-disabled" value="" disabled selected>Reason for Contact</option>
-									<option class="select-option" value="quote">Project Quote</option>
-									<option class="select-option" value="job">Employment</option>
-									<option class="select-option" value="issue">Site Issue</option>
-								</select>
-								<small class="error">Please select a reason for contact.</small>
-							</div>
-							</div>
-						</div>
-
-						<div class="row">
-							<div class="large-12 columns">	
-								<textarea placeholder="Message" required></textarea>
-								<small class="error">Please type your message here.</small>
-							</div>
-						</div>
-						<input type="text" name="_gotcha" style="display:none" />
-					
-						<div class="row"> 
-							<button class="small button" name="Send" type="submit" value="Send">Send er' Off</button>
-						</div>	
-					</div>
-				</form>
-			</div>
-
-			<div class="bottom-row large-12 columns">
-				<p class="site-copy">©  Connor Shocrylas, 2016. All Right Reserved.</p>
-				<div class="lower-icon">
-					<img class="hops-icon" src="img/hops-icon.svg" alt="Hops Icon!! Yay">
-				</div>
-			</div>
-		</footer>
-
-		<script type="application/ld+json">
-			{
-			  "@context" : "http://schema.org",
-			  "@type" : "Person",
-			  "name" : "Connor Shocrylas",
-			  "url" : "https://con-shoc.github.io",
-			  "sameAs" : [
-			    "http://www.facebook.com/connor.shocrylas",
-			    "http://www.linkedin.com/in/conshoc",
-			    "http://google.com/+ConnorShocrylas",
-			    "http://twitter.com/Con_Shoc"
-			  ]
-			}
-		</script>
-
-		<!-- <script src="bower_components/jquery/dist/jquery.min.js"></script> -->
-		<script src="bower_components/modernizr/modernizr.js"></script>
-    	<script src="bower_components/foundation/js/foundation.min.js"></script>
-    	<!-- <script src="bower_components/foundation/js/foundation/foundation.orbit.js"></script> -->
-    	<script src="js/app.js"></script>	
-    	<script src="js/css3-animate-it.js"></script>
-    	<!-- <script src="bower_components/foundation/js/foundation/foundation.topbar.js"></script>	 -->
-		
-		<script>
-		    $(document).foundation();
-	    </script>
-		
-	</body>
 </html>
