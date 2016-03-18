@@ -36,10 +36,14 @@
         a.src = g;
         m.parentNode.insertBefore(a, m)
     })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
     ga('create', 'UA-75227625-1', 'auto');
     ga('send', 'pageview');
     </script>
+    <script>
+if (!(window.location.host.startsWith("127.0.0.1") || window.location.host.startsWith("localhost")) && (window.location.protocol != "https:"))
+    window.location.protocol = "https";
+</script>
+
     <title itemprop='name'>Connor Shocrylas - Web Development, Design & Digital Marketing</title>
     <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
     <link rel="canonical" href="https://con-shoc.github.io/" itemprop="url" />
