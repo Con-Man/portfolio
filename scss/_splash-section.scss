@@ -20,7 +20,7 @@ h2.hero-text-secondary {
     text-align: center;
     text-shadow: rgba(0, 0, 0, 0.3) 2px 6px 5px, rgba(255, 255, 255, 0.4) 0 -4px 30px;
     font-family: "Slabo 13px", serif;
-    color: $white;
+    color: $white !important;
 }
 
 .orbit-timer,

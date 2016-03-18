@@ -8,6 +8,7 @@
 
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,500,700);
 @import "foundation";
+@import "_globals.scss";
 @import "_navigation.scss";
 @import "_splash-section.scss";
 @import "_services-section.scss";
@@ -18,10 +19,10 @@
 
 
 // Globals
-$primary-color: #6699CC;
-$secondary-color: #1C3664;
-$darkest-blue: #0F1041;
-$white: #fff;
+// $primary-color: #6699CC;
+// $secondary-color: #1C3664;
+// $darkest-blue: #0F1041;
+// $white: #fff;
 
 
 // General CSS

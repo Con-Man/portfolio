@@ -1,6 +1,9 @@
 // Created by Connor Shocrylas
 // Naviagtion 
 // Top Nav
+
+@import "_globals.scss";
+
 .nav.fixed.contain-to-grid {
     background-color: transparent !important;
     transition: all 0.25s ease;
@@ -26,6 +29,13 @@
 
 .icon-bar > * {
     padding: 0.5rem !important;
+}
+
+a.item, a.item > * { 
+    transition: all .5s;
+}
+a.item:hover > * {
+    color: $darkest-blue !important; 
 }
 
 .name {
