@@ -3,3 +3,24 @@ $primary-color: #6699CC;
 $secondary-color: #1C3664;
 $darkest-blue: #0F1041;
 $white: #fff;
+
+
+
+//  Custom Scrollbar Styles 
+
+::-webkit-scrollbar-track {
+      background-color: $primary-color !important;
+} /* the new scrollbar will have a flat appearance with the set background color */
+ 
+::-webkit-scrollbar-thumb {
+      background-color: rgba(0, 0, 0, 0.2) !important; 
+} /* this will style the thumb, ignoring the track */
+ 
+::-webkit-scrollbar-button {
+      background-color: $secondary-color !important;
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+ 
+::-webkit-scrollbar-corner {
+      background-color: $darkest-blue !important;
+} /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
+

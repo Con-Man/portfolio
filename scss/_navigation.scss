@@ -7,16 +7,19 @@
 .nav.fixed.contain-to-grid {
     background-color: transparent !important;
     transition: all 0.25s ease;
+    -webkit-backface-visibility: hidden;  
 }
 
 .nav.fixed.contain-to-grid.past-main {
     background-color: $primary-color !important;
     opacity: 0.9;
+    -webkit-backface-visibility: hidden;
 }
 
 .nav.icon-bar {
     background-color: transparent !important;
     transition: all 0.25s ease;
+    -webkit-backface-visibility: hidden;
 }
 
 .nav.icon-bar.past-main {
