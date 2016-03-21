@@ -181,3 +181,19 @@ small.error {
     background: #CF2127 !important;
     border-top: 4px solid #a81a1f !important;
 }
+
+
+span.social-icons {
+    font-size: 24pt;
+    transition: all 3s !important;
+    
+    a { 
+        color: $white !important;
+        &:hover {
+            color: $primary-color !important;
+        }
+    }
+    i.footer-social { 
+        padding: 1em;
+    }
+}

@@ -16,7 +16,6 @@
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
-
     &:hover {
         border: 2px solid $primary-color;
         background: transparent;
@@ -74,7 +73,27 @@
 .grid-test figcaption h3 {
     margin: 0;
     padding: 0;
+    max-width: 350px;
+    margin: 0 auto;
     color: #fff;
+}
+
+span.website-type-icon {
+    background-image: url('../img/corner-triangle.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -11%;
+    left: 0;
+    color: white;
+    padding: .5rem;
+    font-size: 20pt;
+    .grid-image {
+        position: absolute;
+        top: 33%
+    }
 }
 
 // .grid-test figcaption span:before {
@@ -102,6 +121,7 @@
     top: auto;
     bottom: 0;
     opacity: 0;
+    overflow: hidden;
     transform: translateY(100%);
     transition: transform 0.4s, opacity 0.1s 0.3s;
 }
@@ -154,12 +174,10 @@ hr.horizontal {
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     backface-visibility: hidden;
-
     &:active {
         background: #9053a9;
         top: 2px;
     }
-
     span {
         display: inline-block;
         width: 100%;
@@ -171,12 +189,10 @@ hr.horizontal {
         transition: all 0.3s;
         backface-visibility: hidden;
     }
-
     &:hover {
         background: $white;
         color: $primary-color;
     }
-
     &:before {
         position: absolute;
         height: 100%;
@@ -187,7 +203,6 @@ hr.horizontal {
         -moz-transition: all 0.3s;
         transition: all 0.3s;
     }
-
     &:active:before {
         color: #703b87;
     }
@@ -197,7 +212,6 @@ hr.horizontal {
     .grid-test {
         padding: 10px 10px 100px 10px;
     }
-
     .grid-test li {
         width: 100%;
         min-width: 300px;
