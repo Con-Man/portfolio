@@ -154,13 +154,29 @@ input[type="email"] {
     }
 }
 
+
+// Select Box Styles
 select.contact-form-select {
     background: $primary-color;
     color: $white;
     border: none !important;
     font-weight: 600;
+    overflow: hidden;
+    border-radius: 2px;
+
+    &:focus { 
+        background: $darkest-blue !important;
+        border: none;
+        transition: all .5s;
+    }
+
+    &:active {
+        background: $darkest-blue !important;
+    }
 }
 
+
+// Error Message Styles
 small.error {
     background: #CF2127 !important;
     border-top: 4px solid #a81a1f !important;

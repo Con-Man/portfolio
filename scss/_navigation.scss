@@ -24,6 +24,7 @@
 
 .nav.icon-bar.past-main {
     background-color: $primary-color !important;
+    -webkit-backface-visibility: hidden;
 }
 
 .icon-bar > * i {
@@ -34,11 +35,20 @@
     padding: 0.5rem !important;
 }
 
-a.item, a.item > * { 
+a.item > * { 
     transition: all .5s;
 }
-a.item:hover > * {
+
+// a.item:hover > * {
+//     color: $darkest-blue !important; 
+// }
+
+.nav.icon-bar.past-main a.item:hover > * {
     color: $darkest-blue !important; 
+}
+
+.icon-bar a:hover { 
+    background: none !important;
 }
 
 .name {
