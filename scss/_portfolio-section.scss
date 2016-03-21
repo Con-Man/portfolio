@@ -78,7 +78,7 @@
 }
 
 // .grid-test figcaption span:before {
-// 	content: 'by ';
+//  content: 'by ';
 // }
 .cs-style-3 figure {
     overflow: hidden;
@@ -111,7 +111,7 @@ hr.horizontal {
     border-width: 2px 0 0;
     clear: both;
     height: 0;
-    margin: 1.25rem 3rem 1.1875rem;
+    margin: .5rem 3rem;
 }
 
 .no-touch .cs-style-3 figure:hover figcaption,
@@ -140,6 +140,8 @@ hr.horizontal {
     font-family: 'Comfortaa', sans-serif;
     font-weight: 300;
     font-size: 1rem;
+    max-width: 350px;
+    margin: 0 auto;
 }
 
 .btn-caption-visit {
