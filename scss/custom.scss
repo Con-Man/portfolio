@@ -16,8 +16,8 @@
 @import "_icon-button.scss";
 @import "_animate.scss";
 @import "_animations.scss";
-
-
+@import "_media-queries.scss";
+~
 // Globals
 // $primary-color: #6699CC;
 // $secondary-color: #1C3664;
@@ -211,4 +211,6 @@ span.social-icons {
         padding: 1em;
     }
 }
+
+
 
