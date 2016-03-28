@@ -8,6 +8,7 @@
     background-color: transparent !important;
     transition: all 0.25s ease;
     -webkit-backface-visibility: hidden;  
+    z-index: 9999;
 }
 
 .nav.fixed.contain-to-grid.past-main {
@@ -33,6 +34,10 @@
 
 .icon-bar > * {
     padding: 0.5rem !important;
+}
+
+.icon-bar > label { 
+    font-family: 'Ubuntu', sans-serif !important;
 }
 
 a.item > * { 

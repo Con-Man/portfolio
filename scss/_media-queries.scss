@@ -1,5 +1,146 @@
-@media #{$small-only} { 
-	body { 
-		// display: none;
+// Tablet Devices
+@media #{$medium-only} {
+
+// Splash Section 
+	h1.hero-text-main {
+	    	font-size: 24pt !important;
+		}
+
+	h2.hero-text-secondary {
+   		font-size: 18pt !important;
 	}
+
+	.orbit-container .orbit-slides-container img {
+    	height: 500px !important;
+	}
+
+	.mouse-scroll { 
+		bottom: 60%; 
+
+		.mouse { 
+			width: 36px;
+			height: 66px;
+		}
+	}
+
+
+// Portfolio Section
+	.row .grid {
+		height: auto !important;
+	}
+
+	.grid-test li {
+		position: relative !important;
+		display: inline-block;
+		top: 0 !important;
+		left: 0 !important;
+		max-width: 400px;
+		}
+
+	.button.filter-button {
+		margin-left: 0;
+	}
+
+}
+
+
+// Mobile Devices
+@media #{$small-only} {
+
+	// General 
+	h2.section-title {
+    	font-size: 32pt !important;
+	}	
+
+
+	// Navigation  
+	h1.name {
+		font-size: 14pt;
+	}
+
+	.icon-section {
+    	padding: 0 !important;
+	}	
+
+	.icon-bar label {
+    	display: none;
+	}
+
+	// Splash Section
+
+	.hero-text-container {
+		top: 30% !important;
+	}
+
+	h1.hero-text-main {
+    	font-size: 16pt;
+	}
+
+	h2.hero-text-secondary {
+   		font-size: 14pt;
+	}
+
+	.orbit-container .orbit-slides-container img { 
+		min-height: 310px !important;
+	}
+
+	.mouse-scroll .mouse { 
+		width: 25px;
+    	height: 42px;
+    	border: 2px solid $white;
+	}
+
+	.mouse-scroll .mouse .mouse-movement {
+		width: 5px;
+	    height: 5px;
+	    margin: -3px 0 0 -3px;
+	}
+
+	// About Section 
+
+	.img-hex {
+   		display: block;
+    	margin: 0 auto;
+    	padding: 1em;
+	}
+
+	// Skillz Section 
+
+	ul.services-list li {
+ 	   font-size: 14pt !important;
+	}
+
+	h3.services-title {
+    	font-size: 18pt !important;
+	}
+
+
+	// Portfolio Section
+
+	button.button.filter-button { 
+		margin-left: 0;
+	}
+
+	.grid-test li {
+		text-align: center !important;
+		// position: relative !important;
+	}
+
+
+	// Footer 
+
+	span.social-icons i.footer-social {
+    	padding: .5em !important;
+	}
+
+	.bottom-row.large-12.columns {
+    	margin-top: 3em;
+	}
+
+	p.site-copy {
+    	font-size: 8pt;
+    	text-align: center;
+	}
+
+	
 }

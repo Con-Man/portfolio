@@ -27,15 +27,20 @@
 
 // General CSS
 
-body,
-p,
-div {
-    font-family: 'Comfortaa', sans-serif;
+body, p,
+div{
+    font-family: 'Comfortaa', sans-serif !important; 
     color: $secondary-color;
     font-size: 12pt;
     margin-bottom: 0;
     text-rendering: optimizeLegibility;
 }
+
+p.about-text { 
+    font-family: 'Comfortaa', sans-serif !important;
+    color: #1C3664;
+}
+
 
 h1,
 h2,
