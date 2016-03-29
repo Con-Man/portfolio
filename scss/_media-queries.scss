@@ -126,8 +126,21 @@
 		// position: relative !important;
 	}
 
+	span.website-type-icon { 
+		width: 80px;
+    	height: 80px;
+    	bottom: 0 !important;
+    	left: -1% !important;
+   		top: 65% !important;
+    	-ms-transform: rotate(7deg) !important;
+    	-webkit-transform: rotate(7deg) !important;
+	    transform: rotate(-90deg) !important;
+	}
+
 	span.website-type-icon .grid-image { 
-		left: 10% !important;
+		top: 12%;
+    	transform: rotate(90deg);
+    	left: 15% !important;
 	}
 
 
