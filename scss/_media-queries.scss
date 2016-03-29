@@ -15,7 +15,7 @@
 	}
 
 	.mouse-scroll { 
-		bottom: 60%; 
+		bottom: 30%;
 
 		.mouse { 
 			width: 36px;
@@ -124,6 +124,10 @@
 	.grid-test li {
 		text-align: center !important;
 		// position: relative !important;
+	}
+
+	span.website-type-icon .grid-image { 
+		left: 10% !important;
 	}
 
 
