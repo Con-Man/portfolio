@@ -3,11 +3,31 @@ ul.services-list {
     list-style-type: none;
     line-height: 2.5;
     margin-left: 0;
+    font-family: 'Comfortaa', sans-serif;
 
     li {
         font-size: 18pt;
         text-align: center;
-        color: $primary-color;
-        font-family: 'Comfortaa', sans-serif;
+        color: $primary-color; 
+        -webkit-transition: all .3s ease;
+           -moz-transition: all .3s ease;
+            -ms-transition: all .3s ease;
+             -o-transition: all .3s ease;
+                transition: all .3s ease;
+
+                &:hover  {
+                	background: $primary-color;
+
+                	a { 
+                		color: $white;
+
+                		&:after { 
+                			content: '+';
+                			color: $white;
+                			position: absolute;
+                			right: 10%
+                		}
+                	} 
+                }
     }
 }
