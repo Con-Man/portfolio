@@ -16,14 +16,16 @@ ul.services-list {
                 transition: all .3s ease;
 
                 &:hover  {
-                	background: $primary-color;
+                	// background: $primary-color;
 
-                	a { 
-                		color: $white;
+                	li, a { 
+                		// color: $white;
+                        color: $secondary-color;
 
                 		&:after { 
                 			content: '+';
-                			color: $white;
+                			// color: $white;
+                            color: $secondary-color;
                 			position: absolute;
                 			right: 10%
                 		}
